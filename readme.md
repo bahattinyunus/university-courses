@@ -1,5 +1,12 @@
 #  engineering-courses — Ders Notları & Kişisel Notlar
 
+![Project Banner](assets/repo_banner.png)
+
+![License](https://img.shields.io/github/license/bahattinyunus/engineering-courses?style=for-the-badge&color=blue)
+![Issues](https://img.shields.io/github/issues/bahattinyunus/engineering-courses?style=for-the-badge&color=orange)
+![Pull Requests](https://img.shields.io/github/issues-pr/bahattinyunus/engineering-courses?style=for-the-badge&color=green)
+![Stars](https://img.shields.io/github/stars/bahattinyunus/engineering-courses?style=for-the-badge&color=yellow)
+
 > *“Merak ettiklerimi not ettim; çünkü merak, öğrenmenin ilk kıvılcımıdır.”* ✨
 
 Bu repo, **üniversite dersleri** ve **kişisel çalışmalarım** sırasında tuttuğum notlar, çözüm örnekleri ve özetlerden oluşur.
@@ -31,6 +38,25 @@ Amaç; teknik konularda güçlü bir temel oluştururken, aynı zamanda öğrenm
 ## 🗂️ Depo Yapısı
 
 Her klasör bir dersi temsil eder ve içinde notlar, örnekler, PDF'ler veya kısa açıklamalar bulunur.
+
+```mermaid
+mindmap
+  root((Engineering Courses))
+    Mühendislik
+      Algoritma
+      Elektronik
+      Fizik
+      İşletim Sistemleri
+      Veri Tabanı
+    Sosyal
+      Hukuk
+      İktisat
+    Vizyon
+      Yapay Zeka
+      Metaverse
+      BCI
+```
+
 
 ### 📚 Temel Mühendislik Dersleri
 
