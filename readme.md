@@ -36,59 +36,88 @@ Teknik bir mühendisin analitik zekası ile bir hukukçunun adalet arayışını
 
 ## 🗂️ Depo Yapısı (Ders Listesi)
 
-Akademik literatüre uygun olarak kategorize edilmiştir:
+Akademik literatüre uygun olarak kategorize edilmiştir. 
+Aşağıdaki listeden detaylı klasör yapısını inceleyebilirsiniz.
 
-```mermaid
-mindmap
-  root((University Courses))
-    Mühendislik
-    Hukuk
-    İktisadi ve İdari Bilimler
-    Sosyal ve Beşeri Bilimler
-    Vizyon ve Gelecek
+### 📂 Detaylı Dizin Ağacı
+<details>
+<summary>Tüm klasör yapısını görmek için tıklayın (Aç/Kapa)</summary>
+
+```text
+university-courses/
+│   ├── readme.md
+│   ├── genel/
+│   │   ├── sozluk.md
+│   ├── hukuk/
+│   │   ├── readme.md
+│   │   ├── medeni_hukuk/
+│   │   │   ├── readme.md
+│   ├── iibf/
+│   │   ├── README.md
+│   │   ├── iktisat/
+│   │   │   ├── README.md
+│   │   ├── işletme/
+│   │   │   ├── README.md
+│   │   ├── maliye/
+│   │   │   ├── README.md
+│   ├── mühendislik/
+│   │   ├── readme.md
+│   │   ├── adli_bilisim_mühendisligi/
+│   │   ├── akustik_mühendisligi/
+│   │   ├── artırılmıs_gerceklik_mühendisligi/
+│   │   ├── endüstri_mühendisligi/
+│   │   ├── finans_mühendisligi/
+│   │   ├── harita_mühendisligi/
+│   │   ├── inşaat_mühendisligi/
+│   │   ├── jeoloji_mühendisligi/
+│   │   ├── kimya_mühendisligi/
+│   │   ├── kuantum_mühendisligi/
+│   │   ├── mekatronik_mühendisligi/
+│   │   │   ├── bilgisayar_mühendisligi/
+│   │   │   ├── bilişim_sistemleri_mühendisligi/
+│   │   │   ├── biyomedikal_mühendisligi/
+│   │   │   ├── elektrik_elektronik_muhendisligi/
+│   │   │   ├── elektronik_haberlesme_muhendisligi/
+│   │   │   │   ├── antenler_ve_propagasyon/
+│   │   │   │   ├── iletisim_elektronigi/
+│   │   │   │   ├── analog_elektronik/
+│   │   │   │   ├── analog_haberlesme/
+│   │   │   ├── endustriyel_tasarim_muhendisligi/
+│   │   │   ├── enerji-sistemleri_mühendisligi/
+│   │   │   ├── imalat_mühendisligi/
+│   │   │   ├── kontrol-otomasyon_mühendisligi/
+│   │   │   ├── makina_mühendisligi/
+│   │   │   ├── yapay_zeka_ve_veri_mühendisligi/
+│   │   │   ├── yazılım_mühendisligi/
+│   │   │   │   ├── veri_tabani/
+│   │   │   │   ├── yazılım_tasarım_mimarisi/
+│   │   │   │   ├── algoritma/
+│   │   ├── metalurji_malzeme_mühendisligi/
+│   │   ├── mühendislik_ortak/
+│   │   ├── nano_mühendislik/
+│   │   ├── nöro_mühendisligi/
+│   │   ├── optik_mühendisligi/
+│   │   ├── patlayıcı_mühendisligi/
+│   │   ├── ziraat_mühendisligi/
+│   │   ├── çevre_mühendisligi/
+│   ├── sosyal_ve_beseri_bilimler/
+│   │   ├── antropoloji/
+│   │   ├── dilbilim/
+│   │   ├── ekonomi/
+│   │   ├── felsefe/
+│   │   ├── piskoloji/
+│   │   ├── sosyoloji/
+│   ├── vizyon/
+│   │   ├── 3d_print_ai/
+│   │   ├── bci/
+│   │   ├── biyoteknik_nanotıp/
+│   │   ├── contex_engineering/
+│   │   ├── fintek_ai/
+│   │   ├── hukuk_ve_ai_etigi/
+│   │   ├── metaverse/
+│   │   ├── nanoteknoloji_ai/
 ```
-
-### 🏗️ Mühendislik Fakültesi (`mühendislik/`)
-Teknoloji ve inovasyonun kalbi.
-- **📁 mekatronik_mühendisligi/**: Robotik, PLC, Otomasyon.
-- **📁 bilgisayar_mühendisligi/**: Veri yapıları, Algoritmalar.
-- **📁 yazılım_mühendisligi/**:
-    - `veri_tabani` (SQL, NoSQL)
-    - `yazilim_tasarim_mimarisi`
-- **📁 elektronik_haberlesme_muhendisligi/**:
-    - `antenler_ve_propagasyon`
-    - `iletisim_elektronigi`
-    - `analog_haberlesme`
-    - `sayisal_isaret_isleme`
-- **📁 elektrik_elektronik_muhendisligi/**: Devre teorileri.
-- **📁 endustriyel_tasarim_muhendisligi/**: Tasarım prensipleri.
-- **Genel Dersler:** `fizik/`, `matematik/`, `kimya/`, `biyoloji/`, `mantik/`.
-
-### ⚖️ Hukuk Fakültesi (`hukuk/`)
-Adalet ve mevzuat bilgisi.
-- **📁 medeni_hukuk/**
-
-### 📈 İktisadi ve İdari Bilimler Fakültesi (`iibf/`)
-Ekonomi, yönetim ve finans.
-- **📁 iktisat/**
-- **📁 işletme/**
-- **📁 maliye/**
-
-### 🧠 Sosyal ve Beşeri Bilimler (`sosyal_ve_beseri_bilimler/`)
-İnsan, toplum ve düşünce.
-- **📁 sosyoloji/**
-- **📁 piskoloji/**
-- **📁 felsefe/**
-- **📁 antropoloji/**
-- **📁 dilbilim/**
-- **📁 ekonomi/** (Teori)
-
-### 🚀 Vizyon ve Gelecek Teknolojileri (`vizyon/`)
-Geleceği şekillendiren ileri teknolojiler.
-- **📁 yapay_zeka/**, **📁 metaverse/**
-- **📁 bci/** (Beyin-Bilgisayar Arayüzleri)
-- **📁 nanoteknoloji_ai/**, **📁 biyoteknik_nanotıp/**
-- **📁 fintek_ai/**, **📁 3d_print_ai/**
+</details>
 
 ---
 
