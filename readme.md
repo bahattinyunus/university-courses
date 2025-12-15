@@ -18,6 +18,7 @@ Amaç sadece ders geçmek değil; **disiplinlerarası bir vizyon** kazanmaktır.
 
 * 🎯 Giriş ve Vizyon
 * 🗂️ Depo Yapısı (Ders Listesi)
+* 🔬 Özel Uzmanlık Alanları
 * 🧭 Nasıl Gezilir
 * 🛣️ Yakında Eklenecekler (Roadmap)
 * 🤝 Katkıda Bulunma
@@ -118,6 +119,26 @@ university-courses/
 │   │   ├── nanoteknoloji_ai/
 ```
 </details>
+
+---
+
+## 🔬 Özel Uzmanlık Alanları
+
+Bu repo sadece temel dersleri değil, **niche (niş)** ve ileri uzmanlık gerektiren nadir alanları da kapsar:
+
+### 🧩 İleri Mühendislik Dalları
+*   **🕵️‍♂️ Adli Bilişim Mühendisliği:** Siber suç analizi, dijital delil toplama ve veri kurtarma teknikleri.
+*   **💥 Patlayıcı Mühendisliği:** Patlayıcı madde kimyası, güvenli imha yöntemleri ve sivil kullanım alanları.
+*   **⚛️ Kuantum Mühendisliği:** Kuantum hesaplama, kübitler ve süperpozisyon prensipleri.
+*   **🎵 Akustik Mühendisliği:** Ses yalıtımı, gürültü kontrolü ve mimari akustik.
+
+### 🧠 Sosyal ve Beşeri Derinlik
+*   **⚖️ Hukuk:** Özellikle `medeni_hukuk` altında temel yurttaşlık hakları ve borçlar hukuku notları.
+*   **🏛️ Felsefe & Sosyoloji:** Teknoloji felsefesi ve toplum üzerindeki etkileri.
+
+### 🚀 Vizyoner Teknolojiler
+*   **Context Engineering:** LLM (Büyük Dil Modelleri) için bağlam mühendisliği.
+*   **Biyoteknik & Nanotıp:** Geleceğin sağlık teknolojileri.
 
 ---
 
