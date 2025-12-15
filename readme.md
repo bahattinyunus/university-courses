@@ -1,4 +1,4 @@
-#  engineering-courses — Ders Notları & Kişisel Notlar
+# 📚 Akademik Notlar ve Ders Arşivi
 
 ![Project Banner](assets/repo_banner.png)
 
@@ -9,8 +9,8 @@
 
 > *“Merak ettiklerimi not ettim; çünkü merak, öğrenmenin ilk kıvılcımıdır.”* ✨
 
-Bu repo, **üniversite dersleri** ve **kişisel çalışmalarım** sırasında tuttuğum notlar, çözüm örnekleri ve özetlerden oluşur.
-İçerikler **Türkçe** hazırlanmıştır ve zamanla yeni dersler eklenecektir — yani bu depo **canlı bir öğrenme alanıdır!** 🚀
+Bu repo, **Mühendislik**, **Hukuk**, **İİBF** ve **Sosyal Bilimler** alanlarında üniversite dersleri ve kişisel çalışmalarım sırasında tuttuğum notlar, çözüm örnekleri ve araştırmalardan oluşur.
+Tek bir disipline bağlı kalmadan, çok yönlü bir **öğrenme ve belgeleme** alanıdır. 🚀
 
 ---
 
@@ -28,163 +28,117 @@ Bu repo, **üniversite dersleri** ve **kişisel çalışmalarım** sırasında t
 
 ## 🎯 Giriş ve Amaç
 
-Bu repoyu sadece ders geçmek için değil, **anlayarak öğrenmek** ve öğrendiklerimi açık biçimde paylaşmak için oluşturdum.
-Amaç; teknik konularda güçlü bir temel oluştururken, aynı zamanda öğrenme sürecini belgelendirmek.
+Bu repoyu sadece ders geçmek için değil, **disiplinlerarası bir vizyon** kazanmak ve öğrendiklerimi açık biçimde paylaşmak için oluşturdum.
+Teknik mühendislik bilgilerinden hukuki temellere, ekonomik modellerden gelecek vizyonuna kadar geniş bir yelpazeyi kapsar.
 
-> Bilgi biriktirmek güzel ama paylaşmak **daha da kalıcı** hale getiriyor. 🌱
+> Bilgi paylaştıkça çoğalır ve anlam kazanır. 🌱
 
 ---
 
 ## 🗂️ Depo Yapısı
 
-Her klasör bir dersi temsil eder ve içinde notlar, örnekler, PDF'ler veya kısa açıklamalar bulunur.
+Bu depo, akademik disiplinlere göre ana kategorilere ayrılmıştır. İşte genel yapı:
 
 ```mermaid
 mindmap
-  root((Engineering Courses))
+  root((Akademik İlimler))
     Mühendislik
-      Algoritma
+      Mekatronik
+      Bilgisayar
+      Yazılım
       Elektronik
-      Fizik
-      İşletim Sistemleri
-      Veri Tabanı
-    Sosyal
+    Sosyal bilimler
       Hukuk
-      İktisat
+      İktisat ve İİBF
+      Sosyoloji
+      Felsefe
     Vizyon
       Yapay Zeka
       Metaverse
-      BCI
+      Nanoteknoloji
 ```
 
+### 🏗️ Mühendislik Fakültesi (`mühendislik/`)
+Mühendislik disiplinlerinin kalbi buradadır.
+- **📁 mekatronik_mühendisligi/**: Robotik, kontrol ve otomasyon.
+- **📁 bilgisayar_mühendisligi/**: Algoritmalar ve bilgisayar sistemleri.
+- **📁 yazılım_mühendisligi/**: Yazılım mimarisi, tasarım ve geliştirme.
+  - *Örn:* `veri_tabani/`, `yazilim_tasarim/`
+- **📁 elektronik_haberlesme_muhendisligi/**: Devreler, sinyaller ve haberleşme.
+  - *Örn:* `antenler_ve_propagasyon/`, `iletisim_elektronigi/`
+- ve daha fazlası...
 
-### 📚 Temel Mühendislik Dersleri
+### ⚖️ Hukuk (`hukuk/`)
+Hukuki formasyon ve temel kanun notları.
+- **📁 medeni_hukuk/**
 
-```
-📦 engineering-courses
- ┣ 📁 algoritma/                    # Algoritma ve veri yapıları
- ┣ 📁 analog_elektronik/           # Analog elektronik devreler
- ┣ 📁 analog_haberlesme/            # Analog haberleşme sistemleri
- ┣ 📁 Antenler_Propagasyon/         # Antenler ve dalga yayılımı
- ┣ 📁 betik_diller/                # Scripting languages (Python, Bash, vb.)
- ┣ 📁 bicimsel_diller_otamata_teorisi/  # Formal languages & automata
- ┣ 📁 elektrik_motorları/          # Elektrik motorları
- ┣ 📁 elektronik_devreler/          # Elektronik devre analizi
- ┣ 📁 fizik/                       # Fizik temelleri
- ┣ 📁 görüntü_isleme/              # Görüntü işleme ve computer vision
- ┣ 📁 İLETİŞİM_elektroniği/        # İletişim elektroniği
- ┣ 📁 işletim_sistemleri/           # Operating systems
- ┣ 📁 Sayısal_İşaret_İşleme/       # Digital signal processing
- ┣ 📁 sayısal_tasarım/              # Digital design
- ┣ 📁 sistem_programlama/           # System programming
- ┣ 📁 veri tabanı/                  # Database systems
- ┗ 📁 yazılım_tasarım_mimarisi/     # Software design & architecture
-```
+### 📈 İktisadi ve İdari Bilimler (`iibf/`)
+Ekonomi ve yönetim bilimleri.
+- **📁 iktisat/**
+- **📁 işletme/**
+- **📁 maliye/**
 
-### 🎓 Sosyal ve Disiplinlerarası Dersler
+### 🧠 Sosyal ve Beşeri Bilimler (`sosyal_ve_beseri_bilimler/`)
+İnsan ve toplum üzerine incelemeler.
+- **📁 sosyoloji/**: Toplum bilimi.
+- **📁 piskoloji/**: Zihin ve davranış.
+- **📁 felsefe/**: Düşünce tarihi.
+- **📁 ekonomi/**, **📁 dilbilim/** vb.
 
-```
- ┣ 📁 hukuk/                       # Hukuk dersleri
- ┃  ┗ 📁 medeni_hukuk/            # Medeni hukuk
- ┗ 📁 iktisat/                    # İktisat dersleri
-    ├ 📄 ek.md
-    ├ 📄 grafik.md
-    ├ 📄 readme.md
-    ┗ 📄 sozluk.md
-```
-
-### 🚀 Vizyon ve Gelecek Teknolojileri
-
-```
- ┗ 📁 vizyon/                      # Gelecek teknolojileri ve vizyon
-    ├ 📁 3d_print_ai/             # 3D printing & AI
-    ├ 📁 bcı/                      # Brain-computer interface
-    ├ 📁 biyoteknik_nanotıp/      # Biyoteknik & nanoteknoloji
-    ├ 📁 contex_engineering/      # Context engineering
-    ├ 📁 fintek_ai/                # Fintech & AI
-    ├ 📁 metaverse/                # Metaverse teknolojileri
-    ├ 📁 nanateknoloji_ai/         # Nanotechnology & AI
-    ┗ 📄 readme.md
-```
-
-> Her klasörde varsa kendi `README.md` dosyasına göz atın — konuya özel açıklamalar, görseller ve kaynaklar oradadır.
-
-### 💻 Kod Örnekleri
-
-Bazı klasörlerde `examples/` klasörü içinde konuyla ilgili kod örnekleri bulunmaktadır:
-
-- **algoritma/examples/** - Python algoritma örnekleri (Bubble Sort, Binary Search, vb.)
-- **betik_diller/examples/** - Python ve Bash script örnekleri
-- **veri tabanı/examples/** - SQL sorgu örnekleri
-- **fizik/examples/** - Fizik hesaplama kodları
-- **görüntü_isleme/examples/** - OpenCV görüntü işleme örnekleri
-
-> Kod örnekleri eğitim amaçlıdır ve doğrudan çalıştırılabilir. Her örnek için `README.md` dosyasında detaylı açıklamalar bulunmaktadır.
+### 🚀 Vizyon ve Gelecek Teknolojileri (`vizyon/`)
+Geleceği şekillendirecek teknolojiler üzerine araştırmalar.
+- **📁 yapay_zeka/**, **📁 metaverse/**, **📁 bci/** (Beyin-Bilgisayar Arayüzleri)
+- **📁 nanoteknoloji_ai/**, **📁 fintek_ai/**
 
 ---
 
 ## 🧭 Nasıl Gezilir
 
 1. Repo köküne gidin:
-
    ```powershell
    cd "C:\github repolarım\engineering-courses"
    ```
 
-2. İlgili klasöre geçin ve içeriğe göz atın:
-
+2. İlgilenmek istediğiniz alana geçiş yapın. Örneğin **Elektronik ve Haberleşme** için:
    ```powershell
-   cd analog_elektronik
+   cd "mühendislik/mekatronik_mühendisligi/elektronik_haberlesme_muhendisligi"
    ls
    ```
 
-3. Notlar `.md`, `.pdf` veya örnek kod dosyaları şeklinde olabilir.
+3. Notlar genellikle `.md` (Markdown), `.pdf` veya kod dosyaları şeklindedir.
 
 ---
 
 ## 🛣️ Yakında Eklenecekler (Roadmap)
 
-🔜 Bu repo dinamik bir şekilde büyüyor. Yakında eklenecek içerikler:
+🔜 Bu repo dinamik bir şekilde büyüyor. Planlananlar:
 
-* 🧩 Her klasöre kısa **ders kartları (özet notlar)**
-* 📄 Örnek sınav soruları ve çözümleri
-* 💡 Ders içi mini projeler (kod + devre şeması)
-* 🌍 İngilizce özetler (isteğe bağlı)
-* 🧠 Hukuk, sosyoloji ve yapay zekâ temalı ek bölümler
-
-> Yeni bölümler eklendikçe tarih ve açıklama burada listelenecektir.
-> Katkı yapmak istersen, roadmap’e fikir ekleyebilirsin! 🗺️
+* 🧩 **Disiplinlerarası Projeler**: Hukuk ve Yapay Zeka'nın kesiştiği analizler.
+* 📄 **Sınav Hazırlık Setleri**: Vize/Final çalışma notları.
+* 🌍 **Global Kaynaklar**: İngilizce terimler sözlüğü.
 
 ---
 
 ## 🤝 Katkıda Bulunma
 
-Bu repository açık kaynaklıdır ve katkılarınızı bekliyoruz! 🌟
-
-* Hatalı bilgi, eksik içerik veya eklemek istediğiniz materyal mi var?
-  → **Issue açın** veya **Pull Request** gönderin.
-* Küçük düzenlemeler için doğrudan PR,
-  büyük içerik değişiklikleri için önce tartışma açmanız önerilir.
-
-Detaylı katkı rehberi için [`CONTRIBUTING.md`](CONTRIBUTING.md) dosyasına bakabilirsiniz. ⚙️
+Her türlü katkıya açığız! Hata düzeltme, not ekleme veya yeni bir konu başlığı açma...
+Lütfen [`CONTRIBUTING.md`](CONTRIBUTING.md) dosyasına göz atın.
 
 ---
 
 ## ⚖️ Lisans
 
-Bu repo **eğitim ve paylaşım amacıyla** hazırlanmıştır.
-Lisans olarak `MIT` kullanılmaktadır.
-Detaylar için `LICENSE` dosyasına bakabilirsiniz. 🧾
+Bu repo **MIT Lisansı** ile lisanslanmıştır. Detaylar için [`LICENSE`](LICENSE) dosyasına bakabilirsiniz.
 
 ---
 
 ## ✍️ Hazırlayan
 
 **Bahattin Yunus Çetin**
-🎓 Yazılım Mühendisliği Öğrencisi
-💬 İlgi Alanları: Yapay Zekâ, Hukuk, Veri Bilimi
+🎓 Mühendislik & Multidisipliner Araştırmacı
+💬 İlgi Alanları: Yapay Zekâ, Hukuk, Ekonomi, Felsefe
 
 ---
 
-> 🧠 “Bilim, sadece öğrenmekle değil; anlamakla başlar.”
-> Bu repo, o anlamın izini süren bir yolculuğun not defteri. 🌌
+> 🌌 "Kainatın kitabı matematik diliyle yazılmıştır." - Galileo
+> Ama onu anlamak için felsefe, anlatmak için hukuk ve yönetmek için iktisat gerekir.
