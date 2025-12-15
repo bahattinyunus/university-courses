@@ -1,11 +1,17 @@
 cff-version: 1.2.0
-message: "If you use these notes, please cite them as below."
+message: "If you use these notes for academic or personal research, please cite them as below."
 authors:
 - family-names: "Çetin"
   given-names: "Bahattin Yunus"
-title: "Engineering Courses Notes"
-version: 1.0.0
-date-released: 2024-12-11
-url: "https://github.com/bahattinyunus/engineering-courses"
+title: "University Courses: Academic Notes & Archives"
+version: 2.0.0
+date-released: 2025-01-01
+url: "https://github.com/bahattinyunus/university-courses"
+keywords:
+  - engineering
+  - law
+  - economics
+  - social-sciences
+  - lecture-notes
 type: dataset
 license: MIT

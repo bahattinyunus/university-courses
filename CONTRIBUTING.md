@@ -1,106 +1,40 @@
-# 🤝 Katkıda Bulunma Rehberi
+# 🤝 University Courses Katkı Rehberi
 
-Bu repository'ye katkıda bulunmak istediğiniz için teşekkürler! 🎉
+Bu proje, akademik bilgi birikimini organize etmeyi ve herkesin erişimine sunmayı amaçlayan `University Courses` reposudur. Katkılarınızla değer kazanır! 🌟
 
-## 📋 Nasıl Katkıda Bulunabilirsiniz?
+## 📋 Genel Kurallar
 
-### 1. 🐛 Hata Bildirimi (Bug Report)
+### 1. Dosya ve Klasör İsimlendirme
+Proje genelinde **standartlaşma** kritiktir.
+- **Klasörler:** Sadece küçük harf ve alt çizgi (`_`) kullanılmalıdır.
+  - ✅ `mekatronik_muhendisligi`, `yapay_zeka`
+  - ❌ `Mekatronik`, `Yapay Zeka`, `yapay-zeka`
+- **Dosyalar:** İçerikle uyumlu, açıklayıcı isimler.
+  - ✅ `ders_notu_hafta_1.md`, `final_sorulari_2023.pdf`
 
-- Eğer bir hata, yanlış bilgi veya eksik içerik fark ederseniz, lütfen bir **Issue** açın.
-- Issue açarken:
-  - Açık ve net bir başlık kullanın
-  - Hatanın hangi dosyada/klasörde olduğunu belirtin
-  - Mümkünse düzeltme önerisi ekleyin
-
-### 2. ✏️ İçerik Düzeltmeleri
-
-- Yazım hataları
-- Formatlama sorunları
-- Eksik bilgiler
-- Güncel olmayan içerikler
-
-Bu tür küçük düzeltmeler için doğrudan **Pull Request** açabilirsiniz.
-
-### 3. 📚 Yeni İçerik Ekleme
-
-- Yeni ders notları
-- Örnek kodlar
-- Görseller ve diyagramlar
-- Ek kaynaklar ve referanslar
-
-Büyük içerik değişiklikleri için önce bir **Issue** açıp tartışmak önerilir.
-
-## 🔄 Pull Request (PR) Süreci
-
-### Adımlar:
-
-1. **Fork** yapın (repository'yi kendi hesabınıza kopyalayın)
-2. Yeni bir **branch** oluşturun:
-   ```bash
-   git checkout -b feature/yeni-ozellik
-   ```
-3. Değişikliklerinizi yapın ve **commit** edin:
-   ```bash
-   git add .
-   git commit -m "Açıklayıcı commit mesajı"
-   ```
-4. Branch'inizi **push** edin:
-   ```bash
-   git push origin feature/yeni-ozellik
-   ```
-5. GitHub'da **Pull Request** oluşturun
-
-### Commit Mesajları İçin Öneriler:
-
-- Açıklayıcı ve kısa olmalı
-- Türkçe veya İngilizce kullanılabilir
-- Örnekler:
-  - `fix: algoritma/readme.md'deki yazım hatası düzeltildi`
-  - `feat: görüntü_isleme klasörüne yeni örnek eklendi`
-  - `docs: README.md güncellendi`
-
-## 📝 İçerik Standartları
-
-### Markdown Formatı:
-
-- Başlıklar için `#`, `##`, `###` kullanın
-- Kod blokları için üçlü backtick (```) kullanın
-- Emoji kullanımı hoş karşılanır ama abartmayın 😊
-- Türkçe karakterlere dikkat edin (ğ, ü, ş, ı, ö, ç)
-
-### Dosya İsimlendirme:
-
-- Klasör isimleri: küçük harf, alt çizgi ile ayrılmış (örn: `analog_elektronik`)
-- Dosya isimleri: `readme.md` veya açıklayıcı isimler (örn: `ornek_kod.py`)
-
-### İçerik Kalitesi:
-
-- Açık ve anlaşılır dil kullanın
-- Örnekler ve görseller ekleyin
-- Kaynak belirtin (varsa)
-- Güncel bilgileri tercih edin
-
-## 🎯 Katkı Türleri
-
-| Katkı Türü | Açıklama | Örnek |
-|------------|----------|-------|
-| 🐛 Bug Fix | Hata düzeltme | Yazım hatası, yanlış formül |
-| ✨ Feature | Yeni özellik | Yeni ders notu, örnek kod |
-| 📝 Docs | Dokümantasyon | README güncelleme, açıklama ekleme |
-| 🎨 Style | Formatlama | Markdown düzenleme, emoji ekleme |
-| ♻️ Refactor | Kod yenileme | Kod iyileştirme, optimizasyon |
-
-## ❓ Sorularınız mı Var?
-
-- Bir **Issue** açarak soru sorabilirsiniz
-- Veya doğrudan repository sahibine ulaşabilirsiniz
-
-## 🙏 Teşekkürler!
-
-Her katkı, bu eğitim repository'sini daha değerli hale getiriyor. 
-Zamanınızı ayırdığınız için teşekkür ederiz! 🌟
+### 2. İçerik Kalitesi ("Gold Standard")
+Yeni bir ders eklerken veya mevcut bir dersi güncellerken lütfen `templates/COURSE_TEMPLATE.md` şablonunu kullanın.
+- **Zengin İçerik:** Sadece PDF yükleyip geçmeyin. Konu başlıklarını Markdown ile özetleyin.
+- **Görsellik:** Mermaid diyagramları veya şemalarla anlatımı güçlendirin.
 
 ---
 
-> **Not:** Tüm katkılar MIT lisansı altında yayınlanacaktır. Katkıda bulunarak bunu kabul etmiş sayılırsınız.
+## 🚀 Nasıl Katkıda Bulunabilirsiniz?
 
+### 📚 Yeni Ders Ekleme
+1. `mühendislik`, `hukuk` vb. ilgili ana kategoriye gidin.
+2. Bölüm klasörünün altına (yoksa oluşturun) ders adıyla yeni bir klasör açın (örn: `kontrol_sistemleri`).
+3. İçine bir `README.md` ekleyin ve şablonu uygulayın.
+
+### 🐛 Hata Düzeltme & İyileştirme
+- Yazım hataları, kırık linkler veya güncel olmayan bilgiler için **Issue** açabilir veya doğrudan **PR** gönderebilirsiniz.
+- Commit mesajlarınızda ne yaptığınızı açıkça belirtin:
+  - `fix: hukuk/readme.md link düzeltmesi`
+  - `feat: yapay_zeka/ yeni etik makalesi eklendi`
+
+---
+
+## ⚖️ Hukuki Çekince
+Bu repoya eklediğiniz içeriklerin telif haklarını ihlal etmediğinden emin olun. Akademik dürüstlük (citation) kurallarına uyun.
+
+Teşekkürler! 🎓
