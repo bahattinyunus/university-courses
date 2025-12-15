@@ -1,134 +1,134 @@
-# 📚 Akademik Notlar ve Ders Arşivi
+# 🎓 University Courses — Akademik Notlar ve Ders Arşivi
 
-![Project Banner](assets/repo_banner.png)
+![University Courses Banner](assets/repo_banner.png)
 
-![License](https://img.shields.io/github/license/bahattinyunus/engineering-courses?style=for-the-badge&color=blue)
-![Issues](https://img.shields.io/github/issues/bahattinyunus/engineering-courses?style=for-the-badge&color=orange)
-![Pull Requests](https://img.shields.io/github/issues-pr/bahattinyunus/engineering-courses?style=for-the-badge&color=green)
-![Stars](https://img.shields.io/github/stars/bahattinyunus/engineering-courses?style=for-the-badge&color=yellow)
+![License](https://img.shields.io/github/license/bahattinyunus/university-courses?style=for-the-badge&color=blue)
+![Issues](https://img.shields.io/github/issues/bahattinyunus/university-courses?style=for-the-badge&color=orange)
+![Pull Requests](https://img.shields.io/github/issues-pr/bahattinyunus/university-courses?style=for-the-badge&color=green)
+![Stars](https://img.shields.io/github/stars/bahattinyunus/university-courses?style=for-the-badge&color=yellow)
 
-> *“Merak ettiklerimi not ettim; çünkü merak, öğrenmenin ilk kıvılcımıdır.”* ✨
+> *“Kainatın kitabı matematik diliyle yazılmıştır ama onu anlamak için felsefe, anlatmak için hukuk ve yönetmek için iktisat gerekir.”* ✨
 
-Bu repo, **Mühendislik**, **Hukuk**, **İİBF** ve **Sosyal Bilimler** alanlarında üniversite dersleri ve kişisel çalışmalarım sırasında tuttuğum notlar, çözüm örnekleri ve araştırmalardan oluşur.
-Tek bir disipline bağlı kalmadan, çok yönlü bir **öğrenme ve belgeleme** alanıdır. 🚀
+Bu repo, **Mühendislik**, **Hukuk**, **İİBF** ve **Sosyal Bilimler** gibi farklı akademik disiplinleri tek bir çatıda toplayan kapsamlı bir ders arşividir. Notlar, ödevler, projeler ve kişisel araştırmalar burada düzenli bir şekilde saklanır.
+Amaç sadece ders geçmek değil; **disiplinlerarası bir vizyon** kazanmaktır. 🚀
 
 ---
 
 ## 📘 İçindekiler
 
-* 🎯 Giriş ve Amaç
-* 🗂️ Depo Yapısı
+* 🎯 Giriş ve Vizyon
+* 🗂️ Depo Yapısı (Ders Listesi)
 * 🧭 Nasıl Gezilir
 * 🛣️ Yakında Eklenecekler (Roadmap)
 * 🤝 Katkıda Bulunma
 * ⚖️ Lisans
-* ✍️ Hazırlayan
 
 ---
 
-## 🎯 Giriş ve Amaç
+## 🎯 Giriş ve Vizyon
 
-Bu repoyu sadece ders geçmek için değil, **disiplinlerarası bir vizyon** kazanmak ve öğrendiklerimi açık biçimde paylaşmak için oluşturdum.
-Teknik mühendislik bilgilerinden hukuki temellere, ekonomik modellerden gelecek vizyonuna kadar geniş bir yelpazeyi kapsar.
+Bu repo, üniversite eğitimim boyunca ve sonrasında edindiğim bilgilerin dijital bir kütüphanesidir.
+Teknik bir mühendisin analitik zekası ile bir hukukçunun adalet arayışını, bir ekonomistin stratejik bakışını ve bir sosyoloğun toplum analizini bir araya getirmeyi hedefler.
 
-> Bilgi paylaştıkça çoğalır ve anlam kazanır. 🌱
+> **Bilgi paylaştıkça çoğalır.** 🌱
 
 ---
 
-## 🗂️ Depo Yapısı
+## 🗂️ Depo Yapısı (Ders Listesi)
 
-Bu depo, akademik disiplinlere göre ana kategorilere ayrılmıştır. İşte genel yapı:
+Akademik literatüre uygun olarak kategorize edilmiştir:
 
 ```mermaid
 mindmap
-  root((Akademik İlimler))
+  root((University Courses))
     Mühendislik
-      Mekatronik
-      Bilgisayar
-      Yazılım
-      Elektronik
-    Sosyal bilimler
-      Hukuk
-      İktisat ve İİBF
-      Sosyoloji
-      Felsefe
-    Vizyon
-      Yapay Zeka
-      Metaverse
-      Nanoteknoloji
+    Hukuk
+    İktisadi ve İdari Bilimler
+    Sosyal ve Beşeri Bilimler
+    Vizyon ve Gelecek
 ```
 
 ### 🏗️ Mühendislik Fakültesi (`mühendislik/`)
-Mühendislik disiplinlerinin kalbi buradadır.
-- **📁 mekatronik_mühendisligi/**: Robotik, kontrol ve otomasyon.
-- **📁 bilgisayar_mühendisligi/**: Algoritmalar ve bilgisayar sistemleri.
-- **📁 yazılım_mühendisligi/**: Yazılım mimarisi, tasarım ve geliştirme.
-  - *Örn:* `veri_tabani/`, `yazilim_tasarim/`
-- **📁 elektronik_haberlesme_muhendisligi/**: Devreler, sinyaller ve haberleşme.
-  - *Örn:* `antenler_ve_propagasyon/`, `iletisim_elektronigi/`
-- ve daha fazlası...
+Teknoloji ve inovasyonun kalbi.
+- **📁 mekatronik_mühendisligi/**: Robotik, PLC, Otomasyon.
+- **📁 bilgisayar_mühendisligi/**: Veri yapıları, Algoritmalar.
+- **📁 yazılım_mühendisligi/**:
+    - `veri_tabani` (SQL, NoSQL)
+    - `yazilim_tasarim_mimarisi`
+- **📁 elektronik_haberlesme_muhendisligi/**:
+    - `antenler_ve_propagasyon`
+    - `iletisim_elektronigi`
+    - `analog_haberlesme`
+    - `sayisal_isaret_isleme`
+- **📁 elektrik_elektronik_muhendisligi/**: Devre teorileri.
+- **📁 endustriyel_tasarim_muhendisligi/**: Tasarım prensipleri.
+- **Genel Dersler:** `fizik/`, `matematik/`, `kimya/`, `biyoloji/`, `mantik/`.
 
-### ⚖️ Hukuk (`hukuk/`)
-Hukuki formasyon ve temel kanun notları.
+### ⚖️ Hukuk Fakültesi (`hukuk/`)
+Adalet ve mevzuat bilgisi.
 - **📁 medeni_hukuk/**
 
-### 📈 İktisadi ve İdari Bilimler (`iibf/`)
-Ekonomi ve yönetim bilimleri.
+### 📈 İktisadi ve İdari Bilimler Fakültesi (`iibf/`)
+Ekonomi, yönetim ve finans.
 - **📁 iktisat/**
 - **📁 işletme/**
 - **📁 maliye/**
 
 ### 🧠 Sosyal ve Beşeri Bilimler (`sosyal_ve_beseri_bilimler/`)
-İnsan ve toplum üzerine incelemeler.
-- **📁 sosyoloji/**: Toplum bilimi.
-- **📁 piskoloji/**: Zihin ve davranış.
-- **📁 felsefe/**: Düşünce tarihi.
-- **📁 ekonomi/**, **📁 dilbilim/** vb.
+İnsan, toplum ve düşünce.
+- **📁 sosyoloji/**
+- **📁 piskoloji/**
+- **📁 felsefe/**
+- **📁 antropoloji/**
+- **📁 dilbilim/**
+- **📁 ekonomi/** (Teori)
 
 ### 🚀 Vizyon ve Gelecek Teknolojileri (`vizyon/`)
-Geleceği şekillendirecek teknolojiler üzerine araştırmalar.
-- **📁 yapay_zeka/**, **📁 metaverse/**, **📁 bci/** (Beyin-Bilgisayar Arayüzleri)
-- **📁 nanoteknoloji_ai/**, **📁 fintek_ai/**
+Geleceği şekillendiren ileri teknolojiler.
+- **📁 yapay_zeka/**, **📁 metaverse/**
+- **📁 bci/** (Beyin-Bilgisayar Arayüzleri)
+- **📁 nanoteknoloji_ai/**, **📁 biyoteknik_nanotıp/**
+- **📁 fintek_ai/**, **📁 3d_print_ai/**
 
 ---
 
 ## 🧭 Nasıl Gezilir
 
-1. Repo köküne gidin:
+1. Projeyi bilgisayarınıza çekin:
    ```powershell
-   cd "C:\github repolarım\engineering-courses"
+   git clone https://github.com/bahattinyunus/university-courses.git
+   cd "university-courses"
    ```
 
-2. İlgilenmek istediğiniz alana geçiş yapın. Örneğin **Elektronik ve Haberleşme** için:
+2. İlgili fakülte ve bölüme gidin:
    ```powershell
-   cd "mühendislik/mekatronik_mühendisligi/elektronik_haberlesme_muhendisligi"
-   ls
+   cd "mühendislik/mekatronik_mühendisligi"
    ```
 
-3. Notlar genellikle `.md` (Markdown), `.pdf` veya kod dosyaları şeklindedir.
+3. İçerikler genellikle `.md` notları, `.pdf` kaynakları veya `.py/.cpp` kodlarıdır.
 
 ---
 
 ## 🛣️ Yakında Eklenecekler (Roadmap)
 
-🔜 Bu repo dinamik bir şekilde büyüyor. Planlananlar:
+🔜 Gelecek planları:
 
-* 🧩 **Disiplinlerarası Projeler**: Hukuk ve Yapay Zeka'nın kesiştiği analizler.
-* 📄 **Sınav Hazırlık Setleri**: Vize/Final çalışma notları.
-* 🌍 **Global Kaynaklar**: İngilizce terimler sözlüğü.
+* 🧩 **Disiplinlerarası Vaka Analizleri**: Hukuk ve AI etiği üzerine çalışmalar.
+* 📄 **Sınav Arşivi**: Geçmiş yılların vize/final soruları.
+* 🌍 **İngilizce-Türkçe Sözlük**: Teknik terimler için.
 
 ---
 
 ## 🤝 Katkıda Bulunma
 
-Her türlü katkıya açığız! Hata düzeltme, not ekleme veya yeni bir konu başlığı açma...
+Bu açık kaynaklı bir projedir. Katkılarınızı bekliyoruz!
 Lütfen [`CONTRIBUTING.md`](CONTRIBUTING.md) dosyasına göz atın.
 
 ---
 
 ## ⚖️ Lisans
 
-Bu repo **MIT Lisansı** ile lisanslanmıştır. Detaylar için [`LICENSE`](LICENSE) dosyasına bakabilirsiniz.
+Bu repo **MIT Lisansı** ile korunmaktadır. Detaylar için [`LICENSE`](LICENSE) dosyasına bakabilirsiniz.
 
 ---
 
@@ -136,9 +136,3 @@ Bu repo **MIT Lisansı** ile lisanslanmıştır. Detaylar için [`LICENSE`](LICE
 
 **Bahattin Yunus Çetin**
 🎓 Mühendislik & Multidisipliner Araştırmacı
-💬 İlgi Alanları: Yapay Zekâ, Hukuk, Ekonomi, Felsefe
-
----
-
-> 🌌 "Kainatın kitabı matematik diliyle yazılmıştır." - Galileo
-> Ama onu anlamak için felsefe, anlatmak için hukuk ve yönetmek için iktisat gerekir.
