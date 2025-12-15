@@ -12,6 +12,8 @@
 Bu repo, **Mühendislik**, **Hukuk**, **İİBF** ve **Sosyal Bilimler** gibi farklı akademik disiplinleri tek bir çatıda toplayan kapsamlı bir ders arşividir. Notlar, ödevler, projeler ve kişisel araştırmalar burada düzenli bir şekilde saklanır.
 Amaç sadece ders geçmek değil; **disiplinlerarası bir vizyon** kazanmaktır. 🚀
 
+> *Son Güncelleme: 15 Aralık 2025*
+
 ---
 
 ## 📘 İçindekiler
