@@ -1,46 +1,18 @@
-# 📊 İktisat
+# İktisat ve Yapay Zeka Devrimi: Algoritmik Ekonomi
 
-## 📋 Bölüm Hakkında
+## Giriş
+Kıt kaynakların sınırsız ihtiyaçlara dağıtılmasını inceleyen İktisat bilimi, yapay zeka ile "tahmin edilemez" denilen insan davranışlarını ve piyasa hareketlerini modellemede devrimci bir araç kazanmıştır. *Homo Economicus* yerini, veriye dayalı rasyonel kararlar alan *AI-Augmented Economist*'e bırakmaktadır.
 
-İktisat, kaynakların kıtlığı koşullarında insanların ihtiyaçlarını karşılamak için üretim, dağıtım ve tüketim kararlarını inceleyen sosyal bilimdir. Ekonominin çalışma prensiplerini ve sistemlerini analiz eder.
+## 5 Yıllık Projeksiyon: "Mikro Davranıştan Makro Tahminlere"
 
-### 🎯 Ana Çalışma Alanları
+1.  **Hiper-kişiselleştirilmiş Fiyatlandırma:** Firmalar, her tüketicinin ödeme istekliliğini (Willingness to Pay) anlık olarak hesaplayan algoritmalarla, herkese farklı fiyat sunabilecek (Bu durum etik tartışmaları da beraberinde getirecektir).
+2.  **Otomatik Piyasa Yapıcılar:** Finansal piyasalarda likidite sağlama ve fiyat belirleme işi, tamamen otonom algoritmalar tarafından yapılacak. Yüksek frekanslı işlemler (HFT), piyasanın standardı haline gelecek.
+3.  **Gerçek Zamanlı Enflasyon Takibi:** Merkez bankaları, anketlerle aylık veri toplamak yerine, kredi kartı harcamaları ve e-ticaret sitelerinden anlık veri çekerek enflasyonu saniyelik takip edecek ve para politikalarına anında müdahale edebilecek.
 
-- **Mikroekonomi**: Bireysel ve firma kararları
-- **Makroekonomi**: Milli ekonomi ve genel denge
-- **Ekonomi Politikası**: Devlet müdahaleleri ve politikalar
-- **Uluslararası Ekonomi**: Dış ticaret ve küresel ekonomi
-- **Ekonomik Gelişme**: Büyüme ve kalkınma teorileri
+## Teknik Derinlik: Ekonometri ve Oyun Teorisi
 
-### 💡 Önemli Konular
+*   **Nedensellik Analizi (Causal Inference):** AI, sadece korelasyonu değil, karmaşık ekonomik olaylar arasındaki nedenselliği (causality) çözmek için kullanılacak. "Faiz neden, enflasyon sonuç mu?" gibi soruları veriye dayalı modellerle daha net yanıtlayabileceğiz.
+*   **Ajan Tabanlı Modelleme (Agent-Based Modeling):** Milyonlarca sanal tüketicinin ve firmanın etkileşimini simüle ederek, vergi politikalarının veya krizlerin piyasaya etkileri, gerçek hayatta denenmeden sanal ortamda test edilecek.
 
-- Arz-talep analizi ve piyasa dengesi
-- Milli gelir ve ekonomik büyüme
-- Enflasyon, işsizlik ve para politikası
-- Uluslararası ticaret teorileri
-- Kamu maliyesi ve bütçe politikaları
-- Ekonomik krizler ve istikrar programları
-
-### 🛠️ Kullanılan Araçlar
-
-- **İstatistik**: SPSS, Stata, R, Python
-- **Ekonometri**: EViews, GRETL, MATLAB
-- **Modelleme**: Dynare, GAMS, Mathematica
-- **Veri Analizi**: Excel, Tableau, Power BI
-- **Simülasyon**: Agent-based modeling yazılımları
-
-### 🏢 Uygulama Alanları
-
-- **Kamu Kurumları**: Hazine, Merkez Bankası, DPT
-- **Özel Sektör**: Bankalar, danışmanlık şirketleri
-- **Akademik Kuruluşlar**: Üniversiteler ve araştırma merkezleri
-- **Uluslararası Kuruluşlar**: IMF, Dünya Bankası, OECD
-- **Finans Sektörü**: Yatırım şirketleri ve sigortacılık
-
-### 📚 İlgili Dersler
-
-Bu bölümde yer alan ders notları ve materyaller zamanla eklenecektir.
-
----
-
-> **Ekonomik Analiz**: İktisat, toplumsal refahı artırmak için kaynakların verimli kullanımını sağlayan bilimsel bir yaklaşımdır.
+## Sonuç
+İktisatçıların rolü, geçmiş veriyi açıklamaktan, geleceği simüle etmeye evriliyor. Teori kitaplarındaki grafikler, yerini dinamik ve kendini eğiten algoritmalara bırakıyor.

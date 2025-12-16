@@ -1,45 +1,13 @@
-# 🔭 Optik Mühendisliği
+# Optik Mühendisliği ve Yapay Zeka Devrimi: Işığın Zekası
 
-## 📋 Bölüm Hakkında
+## Giriş
+Işığın üretilmesi ve kontrolü ile uğraşan Optik Mühendisliği, "Hesaplamalı Görüntüleme" (Computational Imaging) ile donanımın sınırlarını yazılımla aşıyor.
 
-Optik Mühendisliği, ışığın özelliklerini ve uygulamalarını inceleyen mühendislik dalıdır. Lazer teknolojisi, fiber optik ve optik sistemler geliştirir.
+## 5 Yıllık Projeksiyon: "Görünmeyeni Görmek"
 
-### 🎯 Ana Çalışma Alanları
+1.  **Lenssiz Görüntüleme:** Karmaşık lens grupları yerine, basit sensörlerden alınan veriyi AI ile işleyerek ultra yüksek çözünürlüklü görüntüler oluşturan sistemler kameraları küçültecek.
+2.  **Holografik Ekranlar:** Gerçek 3D hologramların oluşturulması için gereken karmaşık ışık alanı hesaplamaları, AI tarafından gerçek zamanlı yapılarak hologramlar hayatımıza girecek.
+3.  **Tıbbi Görüntüleme:** Göz dibi taramalarından hastalık teşhisi, optik mühendisliği ve AI işbirliği ile göz doktorlarının en büyük yardımcısı olacak.
 
-- **Lazer Teknolojisi**: Lazer sistemleri ve uygulamaları
-- **Fiber Optik**: İletişim ve sensör sistemleri
-- **Optik Tasarım**: Mercekler ve optik sistemler
-- **Fotonik**: Foton tabanlı cihazlar
-- **Görüntüleme**: Optik görüntüleme sistemleri
-
-### 💡 Önemli Konular
-
-- Işık yayılımı ve interferans
-- Lazer fizik ve güvenliği
-- Fiber optik iletişim
-- Optik malzemeler ve kaplamalar
-- Kuantum optik
-
-### 🛠️ Kullanılan Araçlar
-
-- **Tasarım**: ZEMAX, CODE V, Lumerical
-- **Simülasyon**: COMSOL, ANSYS
-- **Ölçüm**: Spektrometre, interferometre
-- **Üretim**: CNC, lazer kesim
-- **Test**: Optik test ve kalibrasyon
-
-### 🏢 Uygulama Alanları
-
-- **İletişim**: Fiber optik ağlar
-- **Tıp**: Lazer cerrahisi ve teşhis
-- **Endüstri**: Kalite kontrol ve ölçüm
-- **Savunma**: Lazer silahları ve güdümlü mermiler
-- **Araştırma**: Temel fizik ve astronomi
-
-### 📚 İlgili Dersler
-
-Bu bölümde yer alan ders notları ve materyaller zamanla eklenecektir.
-
----
-
-> **Gelecek Vizyonu**: Optik mühendisliği, 5G/6G iletişim, kuantum hesaplama ve tıbbi görüntüleme gibi gelecek teknolojilerinin temelini oluşturmaktadır.
+## Sonuç
+Optik mühendisi, ışığı büken kişidir. AI ise o ışığın taşıdığı anlamı çözen zekadır.

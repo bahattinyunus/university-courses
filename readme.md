@@ -33,30 +33,34 @@
 
 Bu repo, üniversite eğitimim boyunca ve sonrasında edindiğim bilgilerin **dijital bir kütüphanesidir**. Sadece mühendislik formülleri değil; hukukun mantığı, ekonominin stratejisi ve sosyolojinin derinliği burada buluşur.
 
+**YENİ: Yapay Zeka Devrimi 🤖**
+Tüm meslek klasörleri, **"Yapay Zeka önümüzdeki 5 yıl içinde bu mesleği nasıl dönüştürecek?"** sorusuna cevap veren vizyoner `README.md` dosyaları ile güncellenmiştir. İnşaat mühendisliğindeki otonom şantiyelerden, hukukta robot avukatlara kadar geleceğin projeksiyonunu her klasörde bulabilirsiniz.
+
 **Hedef:**
 *   📚 **Disiplinlerarası Kütüphane:** Teknik ve sosyal bilimleri birleştirmek.
+*   🔮 **Gelecek Vizyonu:** Mesleklerin AI ile evrimini belgelemek.
 *   🧠 **Kolektif Zeka:** Bilgiyi açık kaynak (Open Source) hale getirmek.
 *   🌍 **Geleceğe Miras:** Akademik birikimi sonraki nesillere aktarmak.
 
-> **Bilgi paylaştıkça çoğalır.** 🌱
+> **"Geleceği tahmin etmenin en iyi yolu, onu inşa etmektir."** 🌱
 
 ---
 
 ## 🗂️ Akademik Bölümler (Navigasyon)
 
-Kategorilere hızlıca göz atın:
+Her bölüm, kendi alanındaki **AI Devrimi** analizini içerir. Kategorilere hızlıca göz atın:
 
 | 🏗️ Mühendislik Fakültesi | ⚖️ Hukuk Fakültesi |
 | :--- | :--- |
-| Teknoloji ve inovasyonun kalbi.<br>📂 [`mühendislik/`](mühendislik/)<br>• [Mekatronik](mühendislik/mekatronik_mühendisligi)<br>• [Bilgisayar](mühendislik/mekatronik_mühendisligi/bilgisayar_mühendisligi)<br>• [Elektronik](mühendislik/mekatronik_mühendisligi/elektronik_haberlesme_muhendisligi) | Adalet, mevzuat ve etik.<br>📂 [`hukuk/`](hukuk/)<br>• [Medeni Hukuk](hukuk/medeni_hukuk)<br>• *Yakında: Anayasa Hukuku*<br><br> |
+| Teknoloji ve inovasyonun kalbi.<br>📂 [`mühendislik/`](mühendislik/)<br>• [Mekatronik](mühendislik/mekatronik_mühendisligi) (Bilişsel Robotik)<br>• [İnşaat](mühendislik/inşaat_mühendisligi) (Otonom Şantiyeler)<br>• [Bilgisayar](mühendislik/mekatronik_mühendisligi/bilgisayar_mühendisligi) | Adalet, mevzuat ve etik.<br>📂 [`hukuk/`](hukuk/)<br>• [Medeni Hukuk](hukuk/medeni_hukuk) (Robot Avukatlar)<br>• *Yakında: Anayasa Hukuku*<br><br> |
 
 | 📈 İktisadi ve İdari Bilimler | 🧠 Sosyal ve Beşeri Bilimler |
 | :--- | :--- |
-| Ekonomi, yönetim ve finans.<br>📂 [`iibf/`](iibf/)<br>• [İktisat](iibf/iktisat)<br>• [İşletme](iibf/işletme)<br>• [Maliye](iibf/maliye) | İnsan, toplum ve düşünce.<br>📂 [`sosyal_ve_beseri_bilimler/`](sosyal_ve_beseri_bilimler/)<br>• [Felsefe](sosyal_ve_beseri_bilimler/felsefe)<br>• [Sosyoloji](sosyal_ve_beseri_bilimler/sosyoloji)<br>• [Psikoloji](sosyal_ve_beseri_bilimler/piskoloji) |
+| Ekonomi, yönetim ve finans.<br>📂 [`iibf/`](iibf/)<br>• [İktisat](iibf/iktisat) (Algoritmik Ekonomi)<br>• [İşletme](iibf/işletme) (Veri Odaklı Yönetim)<br>• [Maliye](iibf/maliye) | İnsan, toplum ve düşünce.<br>📂 [`sosyal_ve_beseri_bilimler/`](sosyal_ve_beseri_bilimler/)<br>• [Felsefe](sosyal_ve_beseri_bilimler/felsefe) (AI Etiği)<br>• [Sosyoloji](sosyal_ve_beseri_bilimler/sosyoloji) (Dijital Toplum)<br>• [Psikoloji](sosyal_ve_beseri_bilimler/piskoloji) |
 
 | 🚀 Vizyon ve Gelecek | 🔬 Özel Uzmanlık Alanları |
 | :--- | :--- |
-| Geleceği şekillendiren teknolojiler.<br>📂 [`vizyon/`](vizyon/)<br>• [Yapay Zeka & Etik](vizyon/hukuk_ve_ai_etigi)<br>• [Nanoteknoloji](vizyon/nanoteknoloji_ai)<br>• [Metaverse](vizyon/metaverse) | Niş ve özel alanlar.<br>• **Adli Bilişim & Siber Güvenlik**<br>• **Patlayıcı Mühendisliği**<br>• **Kuantum Hesaplama**<br>• **Context Engineering** |
+| Geleceği şekillendiren teknolojiler.<br>📂 [`vizyon/`](vizyon/)<br>• [Yapay Zeka & Etik](vizyon/hukuk_ve_ai_etigi)<br>• [Nanoteknoloji](vizyon/nanoteknoloji_ai)<br>• [Metaverse](vizyon/metaverse) | Niş ve özel alanlar.<br>• **Adli Bilişim** (Dijital Dedektiflik)<br>• **Patlayıcı Mühendisliği** (Akıllı Patlatma)<br>• **Kuantum Hesaplama**<br>• **Context Engineering** |
 
 ---
 

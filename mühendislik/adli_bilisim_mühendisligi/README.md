@@ -1,35 +1,18 @@
-# 🔍 Adli Bilişim Mühendisliği
+# Adli Bilişim Mühendisliği ve Yapay Zeka Devrimi: Dijital Dedektiflik
 
-## 📋 Bölüm Hakkında
+## Giriş
+Suçların dijitalleştiği bir çağda, deliller de dijitalleşiyor. Adli Bilişim Mühendisliği, suç mahallinin "Hard Disk" olduğu durumlarda devreye girer. Yapay zeka, bu dijital karmaşayı çözümlemekte insan hızının ötesine geçen bir güç çarpanıdır.
 
-Adli Bilişim Mühendisliği, dijital delillerin toplanması, korunması, analizi ve mahkeme sunulması süreçlerini kapsayan disiplinlerarası bir mühendislik dalıdır.
+## 5 Yıllık Projeksiyon: "Deepfake Avcıları ve Otonom Analiz"
 
-### 🎯 Ana Çalışma Alanları
+1.  **Deepfake Tespiti:** Gözle ayırt edilemeyen sahte videolar ve ses kayıtları, GAN (Generative Adversarial Networks) tabanlı karşıt algoritmalarla milisaniyeler içinde ifşa edilecek.
+2.  **Otonom Delil Analizi:** Terabaytlarca veri içeren sunuculardaki çocuk istismarı materyalleri veya yasadışı para transferleri, AI algoritmaları tarafından otomatik olarak taranıp sınıflandırılacak.
+3.  **Kripto Varlık Takibi:** Blockchain üzerindeki karmaşık para aklama yöntemleri, AI destekli grafik analizi ile takip edilerek "anonim" suçluların kimliği açığa çıkarılacak.
 
-- **Dijital Delil Analizi**: Bilgisayarlar, mobil cihazlar ve ağlardan delil toplama
-- **Siber Suç Araştırması**: Hack olayları, veri hırsızlığı ve siber saldırıların incelenmesi
-- **Veri Kurtarma**: Silinmiş veya bozulmuş verilerin geri getirilmesi
-- **Güvenlik Danışmanlığı**: Kurumların siber güvenlik altyapısının güçlendirilmesi
+## Teknik Derinlik: Siber Güvenlik ve Kriptografi
 
-### 💡 Önemli Konular
+*   **Zararlı Yazılım Analizi:** Yeni çıkan ve imzası henüz bilinmeyen virüsler, davranışsal analiz yapan AI modelleri tarafından "sıfırıncı gün" (zero-day) saldırısı anında tespit edilecek.
+*   **Veri Kurtarma:** Hasar görmüş veya silinmiş veriler, parçalanmış dosya yapılarını (file carving) tanıyan derin öğrenme modelleri ile çok daha yüksek başarı oranlarıyla kurtarılacak.
 
-- Dijital delil bütünlüğü ve zincirleme koruma
-- İşletim sistemi ve ağ forensics
-- Mobil cihaz analizi
-- Bulut bilişim ve IoT forensics
-- Kriptografi ve şifreleme teknikleri
-
-### 🛠️ Kullanılan Araçlar
-
-- **Disk Analizi**: Autopsy, FTK Imager, EnCase
-- **Ağ Analizi**: Wireshark, NetworkMiner
-- **Memori Analizi**: Volatility, Rekall
-- **Mobile Forensics**: Cellebrite, Oxygen Forensic Detective
-
-### 📚 İlgili Dersler
-
-Bu bölümde yer alan ders notları ve materyaller zamanla eklenecektir.
-
----
-
-> **Not**: Bu klasördeki içerikler eğitim amaçlı olup, adli süreçlerde uzman danışmanlık gerektiren durumlarda mutlaka yetkili kişilerden destek alınmalıdır.
+## Sonuç
+Adli bilişimciler, dijital dünyanın "CSI" ekipleridir. AI, onların mikroskobu ve DNA analiz cihazıdır. Suçlular yapay zekayı kullanıyorsa, dedektifler daha iyisini kullanmak zorundadır.
