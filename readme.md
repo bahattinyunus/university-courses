@@ -1,66 +1,68 @@
 <div align="center">
+  
+# 🎓 UNIVERSITY COURSES
+### *The Multidisciplinary Engine for the AI Era* 🚀
 
-![University Courses Banner](assets/repo_banner.png)
+[![Founder](https://img.shields.io/badge/FOUNDER-Bahattin%20Yunus-black?style=for-the-badge&logo=github)](https://github.com/bahattinyunus)
+[![Vision](https://img.shields.io/badge/VISION-Solopreneur-B81D24?style=for-the-badge&logo=starship)](.)
+[![Status](https://img.shields.io/badge/STATUS-Visionary-0078D4?style=for-the-badge&logo=microsoft)](.)
 
-# 🎓 University Courses
-### *Akademik Notlar, Ders Arşivi ve Vizyoner Projeler*
-
-> *“Kainatın kitabı matematik diliyle yazılmıştır ama onu anlamak için felsefe, anlatmak için hukuk ve yönetmek için iktisat gerekir.”* ✨
+> **"Tek kişilik milyar dolarlık şirketler çağına hazır mısın?"** 💎
 
 ---
 
 <!-- Social & Stats -->
-![License](https://img.shields.io/github/license/bahattinyunus/university-courses?style=for-the-badge&color=blue)
-![Issues](https://img.shields.io/github/issues/bahattinyunus/university-courses?style=for-the-badge&color=orange)
-![Stars](https://img.shields.io/github/stars/bahattinyunus/university-courses?style=for-the-badge&color=yellow)
-![Forks](https://img.shields.io/github/forks/bahattinyunus/university-courses?style=for-the-badge&color=green)
-![Repo Size](https://img.shields.io/github/repo-size/bahattinyunus/university-courses?style=for-the-badge&color=red)
-![Last Commit](https://img.shields.io/github/last-commit/bahattinyunus/university-courses?style=for-the-badge&color=purple)
+![License](https://img.shields.io/github/license/bahattinyunus/university-courses?style=flat-square&color=blue)
+![Issues](https://img.shields.io/github/issues/bahattinyunus/university-courses?style=flat-square&color=orange)
+![Stars](https://img.shields.io/github/stars/bahattinyunus/university-courses?style=flat-square&color=yellow)
+![Repo Size](https://img.shields.io/github/repo-size/bahattinyunus/university-courses?style=flat-square&color=red)
 
-<!-- Tech Stack & Topics -->
 <br>
-<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-<img src="https://img.shields.io/badge/Matlab-e16737?style=for-the-badge&logo=mathworks&logoColor=white" />
-<img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" />
-<img src="https://img.shields.io/badge/Law-Justice-4B0082?style=for-the-badge&logo=scales-of-justice&logoColor=white" />
-<img src="https://img.shields.io/badge/AI-Ethics-FF4500?style=for-the-badge&logo=openai&logoColor=white" />
+
+| 🛠️ ENG | ⚖️ LAW | 📈 ECON | 🎨 ARCH | 🧠 SOC |
+| :---: | :---: | :---: | :---: | :---: |
+| ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white) | ![Justice](https://img.shields.io/badge/-Justice-4B0082?style=flat-square&logo=scales-of-justice&logoColor=white) | ![Fin](https://img.shields.io/badge/-Finance-e16737?style=flat-square&logo=mathworks&logoColor=white) | ![Design](https://img.shields.io/badge/-Design-FF4500?style=flat-square&logo=openai&logoColor=white) | ![Spirit](https://img.shields.io/badge/-Spirit-indigo?style=flat-square&logo=semantic-web&logoColor=white) |
 
 </div>
 
 ---
 
-## 🚀 Proje Vizyonu
+## 🚀 Yeni Dünya Vizyonu: Mültidisipliner Solopreneur Çağı
 
-Bu repo, üniversite eğitimim boyunca ve sonrasında edindiğim bilgilerin **dijital bir kütüphanesidir**. Sadece mühendislik formülleri değil; hukukun mantığı, ekonominin stratejisi ve sosyolojinin derinliği burada buluşur.
+> *"Yapay zeka çağında uzmanlık artık tek bir dikey alanla sınırlı kalamaz. Gelecek, mühendisliği hukukla, tasarımı iktisatla harmanlayabilen 'bütünsel zihinlerin' elindedir."* 🤖💡
 
-**YENİ: Yapay Zeka Devrimi 🤖**
-Tüm meslek klasörleri, **"Yapay Zeka önümüzdeki 5 yıl içinde bu mesleği nasıl dönüştürecek?"** sorusuna cevap veren vizyoner `README.md` dosyaları ile güncellenmiştir. İnşaat mühendisliğindeki otonom şantiyelerden, hukukta robot avukatlara kadar geleceğin projeksiyonunu her klasörde bulabilirsiniz.
+### 💎 Tek Kişilik Milyar Dolarlık Şirketler (Solopreneurs)
+Yapay zeka, operasyonel yükü sıfıra indirirken, tek bir insanın yaratıcı gücünü binlerce kişilik bir dev şirket seviyesine çıkarıyor. Bu repodaki her ders, bu yeni çağın "kurucu ortaklarını" (Founders) yetiştirmek için birer yapı taşıdır.
 
-**Hedef:**
-*   📚 **Disiplinlerarası Kütüphane:** Teknik ve sosyal bilimleri birleştirmek.
-*   🔮 **Gelecek Vizyonu:** Mesleklerin AI ile evrimini belgelemek.
-*   🧠 **Kolektif Zeka:** Bilgiyi açık kaynak (Open Source) hale getirmek.
-*   🌍 **Geleceğe Miras:** Akademik birikimi sonraki nesillere aktarmak.
+**Neden Bu Repo?**
+- 🌍 **Evrensel Müfredat:** Üniversitelerde verilen tüm temel dersleri tek bir çatı altında topluyoruz. Mühendislikten felsefeye, mimarlıktan maliyeye kadar her alan burada.
+- 🧬 **Mültidisipliner Gereklilik:** Bir algoritma yazmak yetmez; o algoritmanın hukuki sonuçlarını, ekonomik modelini ve estetik sunumunu da bilmek zorundasınız.
+- ⚡ **AI Entegrasyonu:** Her branşın içine sızan yapay zeka devrimini, ders notlarımızın merkezine koyuyoruz.
 
-> **"Geleceği tahmin etmenin en iyi yolu, onu inşa etmektir."** 🌱
+### 🌱 Manifestomuz
+1.  **Bilgi Sınırları Yok Etmektedir:** Bir mühendis hukuk bilmeli, bir mimar algoritma yazabilmelidir.
+2.  **Hız ve Otonomi:** AI araçlarıyla donatılmış tek bir birey, artık tüm bir sektörün kaderini değiştirebilir.
+3.  **Açık Kaynak Bilgelik:** Akademik birikim gizli bir hazine değil, herkesin erişebildiği bir fırlatma rampasıdır.
+
+> **"Geleceği tahmin etmenin en iyi yolu, onu mültidisipliner bir zekayla inşa etmektir."** 🚀
 
 ---
 
-## 🗂️ Akademik Bölümler (Navigasyon)
+## 🗂️ Akademik Hub: Mültidisipliner Uzmanlık Merkezi
 
-Her bölüm, kendi alanındaki **AI Devrimi** analizini içerir. Kategorilere hızlıca göz atın:
+Bu bölümler, üniversite eğitiminin ötesine geçerek, bir **Solopreneur** için gerekli olan bütünsel bilgi mimarisini inşa eder.
 
-| 🏗️ Mühendislik Fakültesi | ⚖️ Hukuk Fakültesi |
+| 🏗️ Mühendislik Fakültesi | 🎨 Mimarlık ve Tasarım |
 | :--- | :--- |
-| Teknoloji ve inovasyonun kalbi.<br>📂 [`mühendislik/`](mühendislik/)<br>• [Mekatronik](mühendislik/mekatronik_mühendisligi) (Bilişsel Robotik)<br>• [İnşaat](mühendislik/inşaat_mühendisligi) (Otonom Şantiyeler)<br>• [Bilgisayar](mühendislik/mekatronik_mühendisligi/bilgisayar_mühendisligi) | Adalet, mevzuat ve etik.<br>📂 [`hukuk/`](hukuk/)<br>• [Medeni Hukuk](hukuk/medeni_hukuk) (Robot Avukatlar)<br>• *Yakında: Anayasa Hukuku*<br><br> |
+| **Teknoloji ve inovasyonun kalbi.**<br>📂 [`mühendislik/`](mühendislik/)<br>• [Mekatronik](mühendislik/mekatronik_mühendisligi) (Robotik)<br>• [İnşaat](mühendislik/inşaat_mühendisligi) (Otonom Sahalar)<br>• [Yazılım](mühendislik/mekatronik_mühendisligi/bilgisayar_mühendisligi) | **Estetik, teknik ve mekan sanatı.**<br>📂 [`mimarlık/`](mimarlık/)<br>• [Mimarlık](mimarlık/) (Generatif)<br>• [Şehircilik](mimarlık/05_Sehircilik_ve_Peyzaj) (Smart City)<br>• [CAD/BIM](mimarlık/08_Bilgisayar_Destekli_Tasarim) |
 
-| 📈 İktisadi ve İdari Bilimler | 🧠 Sosyal ve Beşeri Bilimler |
+| ⚖️ Hukuk Fakültesi | 📈 İktisat ve İşletme |
 | :--- | :--- |
-| Ekonomi, yönetim ve finans.<br>📂 [`iibf/`](iibf/)<br>• [İktisat](iibf/iktisat) (Algoritmik Ekonomi)<br>• [İşletme](iibf/işletme) (Veri Odaklı Yönetim)<br>• [Maliye](iibf/maliye) | İnsan, toplum ve düşünce.<br>📂 [`sosyal_ve_beseri_bilimler/`](sosyal_ve_beseri_bilimler/)<br>• [Felsefe](sosyal_ve_beseri_bilimler/felsefe) (AI Etiği)<br>• [Sosyoloji](sosyal_ve_beseri_bilimler/sosyoloji) (Dijital Toplum)<br>• [Psikoloji](sosyal_ve_beseri_bilimler/piskoloji) |
+| **Adalet, mevzuat ve dijital etik.**<br>📂 [`hukuk/`](hukuk/)<br>• [Medeni Hukuk](hukuk/medeni_hukuk)<br>• [Hukuk & AI](vizyon/hukuk_ve_ai_etigi) | **Strateji, finans ve yönetim.**<br>📂 [`iibf/`](iibf/)<br>• [İktisat](iibf/iktisat) (Algoritmik)<br>• [İşletme](iibf/işletme) (Veri Odaklı) |
 
-| 🚀 Vizyon ve Gelecek | 🔬 Özel Uzmanlık Alanları |
+| 🧠 Sosyal ve Beşeri Bilimler | 🚀 Vizyon ve Gelecek Lab |
 | :--- | :--- |
-| Geleceği şekillendiren teknolojiler.<br>📂 [`vizyon/`](vizyon/)<br>• [Yapay Zeka & Etik](vizyon/hukuk_ve_ai_etigi)<br>• [Nanoteknoloji](vizyon/nanoteknoloji_ai)<br>• [Metaverse](vizyon/metaverse) | Niş ve özel alanlar.<br>• **Adli Bilişim** (Dijital Dedektiflik)<br>• **Patlayıcı Mühendisliği** (Akıllı Patlatma)<br>• **Kuantum Hesaplama**<br>• **Context Engineering** |
+| **İnsan, toplum ve derin düşünce.**<br>📂 [`sosyal_ve_beseri_bilimler/`](sosyal_ve_beseri_bilimler/)<br>• [Felsefe](sosyal_ve_beseri_bilimler/felsefe) (AI Etiği)<br>• [Psikoloji](sosyal_ve_beseri_bilimler/piskoloji) | **Yarının sınırlarını aşanlar.**<br>📂 [`vizyon/`](vizyon/)<br>• [Nanoteknoloji](vizyon/nanoteknoloji_ai)<br>• [Metaverse](vizyon/metaverse) |
 
 ---
 
@@ -86,6 +88,16 @@ university-courses/
 │   │   │   ├── README.md
 │   │   ├── maliye/
 │   │   │   ├── README.md
+│   ├── mimarlık/
+│   │   ├── README.md
+│   │   ├── 01_Tasarim_Studyolari/
+│   │   ├── 02_Mimarlik_Tarihi_ve_Teorisi/
+│   │   ├── 03_Yapi_Teknolojisi_ve_Malzeme/
+│   │   ├── 04_Gorsel_Iletisim_ve_Anlatim/
+│   │   ├── 05_Sehircilik_ve_Peyzaj/
+│   │   ├── 06_Restorasyon_ve_Koruma/
+│   │   ├── 07_Yapi_Fizigi_ve_Cevre/
+│   │   ├── 08_Bilgisayar_Destekli_Tasarim/
 │   ├── mühendislik/
 │   │   ├── readme.md
 │   │   ├── adli_bilisim_mühendisligi/
