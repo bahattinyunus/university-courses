@@ -1,12 +1,19 @@
-# 🏛️ Mimarlık: Sanat, Bilim ve Algoritmanın Fütüristik Senfonisi
+<div align="center">
 
-![Architecture History](https://img.shields.io/badge/History-Deep_Dive-green.svg?style=for-the-badge&logo=history)
-![Architectural Styles](https://img.shields.io/badge/Styles-Universal-blue.svg?style=for-the-badge)
-![Smart Cities](https://img.shields.io/badge/Urbanism-AI_Centric-purple.svg?style=for-the-badge)
+# 🏛️ ARCHITECTURE DOMAIN
+### *The Intersection of Logic, Aesthetics, and Artificial Intelligence* 📐✨
+
+[![Field](https://img.shields.io/badge/FIELD-Architecture-D4AF37?style=for-the-badge&logo=blueprint)](.)
+[![Status](https://img.shields.io/badge/ERA-Generative_Design-black?style=for-the-badge&logo=smart-house)](.)
+[![Future](https://img.shields.io/badge/FUTURE-Neuro_Spaces-purple?style=for-the-badge&logo=openai)](.)
 
 ---
 
-## ✒️ Mimarlık Üzerine İlham Veren Sözler
+> *"Mimarlık, taşa dönüştürülmüş müziktir."* — Goethe 🎼🧱
+
+</div>
+
+## 🌟 Mimarlık: Kuralların ve Sanatın Sentezi
 
 > "Müzik, donmuş mimarlıktır." — **Goethe**
 

@@ -1,7 +1,19 @@
+<div align="center">
 
+# ⚙️ ENGINEERING DOMAIN
+### *The Mechanics of Innovation and Problem Solving* 🚀🛠️
 
-# ⚙️ Genel Mühendislik README
+[![Field](https://img.shields.io/badge/FIELD-Engineering-blue?style=for-the-badge&logo=probot)](.)
+[![Status](https://img.shields.io/badge/ERA-Autonomous_Systems-black?style=for-the-badge&logo=tesla)](.)
+[![Future](https://img.shields.io/badge/FUTURE-Cognitive_Robotics-orange?style=for-the-badge&logo=openai)](.)
 
+---
+
+> *"Bilim insanları olanı inceler, mühendisler olmayanı yaratır."* — A. Einstein 🧪🏗️
+
+</div>
+
+## 🎯 Domain Vizyonu
 ## 🎯 Amaç
 Bu README, mühendislik öğrencileri ve profesyonelleri için **genel bir yol haritası** sunar.  
 - Ortak mühendislik temellerini açıklar  
