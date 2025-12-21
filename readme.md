@@ -1,13 +1,14 @@
 <div align="center">
 
-![University Courses Banner](assets/repo_banner.png)
+![AOS Hero Banner](assets/aos_hero_banner.png)
 
 # 🏛️ ACADEMIC OPERATING SYSTEM
 ### *Multidisciplinary Mastery for the Billion-Dollar Individual* 💎🚀
 
-[![Founder](https://img.shields.io/badge/FOUNDER-Bahattin%20Yunus-black?style=for-the-badge&logo=github)](https://github.com/bahattinyunus)
-[![Vision](https://img.shields.io/badge/VISION-Solopreneur-B81D24?style=for-the-badge&logo=target)](.)
-[![Status](https://img.shields.io/badge/PHASE-Era_of_Independence-0078D4?style=for-the-badge&logo=rocket)](.)
+[![Founder](https://img.shields.io/badge/FOUNDER-Bahattin%20Yunus-black?style=for-the-badge&logo=github&logoColor=gold)](https://github.com/bahattinyunus)
+[![Vision](https://img.shields.io/badge/VISION-A_New_Era-B81D24?style=for-the-badge&logo=target)](.)
+[![Status](https://img.shields.io/badge/PHASE-Global_Dominion-0078D4?style=for-the-badge&logo=rocket)](.)
+[![Engine](https://img.shields.io/badge/ENGINE-AI_Hybrid-FFD700?style=for-the-badge&logo=openai&logoColor=black)](.)
 
 ---
 
@@ -83,21 +84,22 @@ Teknoloji, operasyonel sınırları yok etti. Bugün, tek bir birey; AI araçlar
 
 ---
 
-## 🗂️ AKADEMİK HUB: Mültidisipliner Uzmanlık Matrisi
+## 🎮 DOMINION CONTROL CENTER
+*En kritik verilere ve disiplinlere tek tıkla erişin.*
 
-Buradaki her ders, bir **Solopreneur** imparatorluğunun savunma ve saldırı hatlarını oluşturur.
+| 🏗️ **ENGINEERING** | 🎨 **DESIGN** | 🔬 **BASIC SCIENCES** | 🏥 **HEALTH** |
+| :---: | :---: | :---: | :---: |
+| [![Eng](https://img.shields.io/badge/-ENGINEERING-blue?style=flat-square&logo=probot)](DOMINION_ENGINEERING/) | [![Des](https://img.shields.io/badge/-ARCH_&_URBAN-blue?style=flat-square&logo=autodesk)](DOMINION_DESIGN_CIVILIZATION/) | [![Sci](https://img.shields.io/badge/-BASIC_SCIENCES-green?style=flat-square&logo=scientificamerican)](DOMINION_BASIC_SCIENCES/) | [![Health](https://img.shields.io/badge/-HEALTH_&_LIFE-red?style=flat-square&logo=redcross)](DOMINION_HEALTH_LIFE/) |
+| [Bilgisayar](DOMINION_ENGINEERING/bilgisayar_mühendisligi/README.md) | [Mimarlık](DOMINION_DESIGN_CIVILIZATION/README.md) | [Matematik](DOMINION_BASIC_SCIENCES/matematik/README.md) | [Tıp Fakültesi](DOMINION_HEALTH_LIFE/tıp/README.md) |
+| [Elektrik-Elk.](DOMINION_ENGINEERING/elektrik_elektronik_mühendisligi/README.md) | [Şehircilik](DOMINION_DESIGN_CIVILIZATION/05_Sehircilik_ve_Peyzaj) | [Fizik](DOMINION_BASIC_SCIENCES/fizik/README.md) | [Eczacılık](DOMINION_HEALTH_LIFE/eczacilik/README.md) |
+| [Mekatronik](DOMINION_ENGINEERING/mekatronik_mühendisligi) | [CAD/BIM](DOMINION_DESIGN_CIVILIZATION/08_Bilgisayar_Destekli_Tasarim) | [Kimya](DOMINION_BASIC_SCIENCES/kimya/README.md) | [Genetik](DOMINION_HEALTH_LIFE/molekuler_biyoloji_genetik/README.md) |
 
-| 🏗️ Mühendislik & İnovasyon | 🎨 Mimarlık & Estetik |
-| :--- | :--- |
-| **Geleceğin donanım mimarları.**<br>📂 [`mühendislik/`](mühendislik/)<br>• [Mekatronik](mühendislik/mekatronik_mühendisligi) (Bilişsel Robotik)<br>• [İnşaat](mühendislik/inşaat_mühendisligi) (Otonom Sahalar)<br>• [Yazılım](mühendislik/mekatronik_mühendisligi/bilgisayar_mühendisligi) | **Geleceğin mekan tasarımcıları.**<br>📂 [`mimarlık/`](mimarlık/)<br>• [Mimarlık](mimarlık/) (Generatif Tasarım)<br>• [Şehircilik](mimarlık/05_Sehircilik_ve_Peyzaj) (Akıllı Şehirler)<br>• [CAD/BIM](mimarlık/08_Bilgisayar_Destekli_Tasarim) |
-
-| ⚖️ Hukuk & Dijital Etik | 📈 İktisat & Finansal Zeka |
-| :--- | :--- |
-| **Geleceğin kural koyucuları.**<br>📂 [`hukuk/`](hukuk/)<br>• [Medeni Hukuk](hukuk/medeni_hukuk) (Dijital Mülkiyet)<br>• [Yapay Zeka Hukuku](vizyon/hukuk_ve_ai_etigi) | **Geleceğin sermaye yönetenleri.**<br>📂 [`iibf/`](iibf/)<br>• [İktisat](iibf/iktisat) (FinTek & Algoritmik)<br>• [İşletme](iibf/işletme) (Veri Odaklı Karar) |
-
-| 🧠 Sosyal Bilimler & İnsan | 🚀 Vizyon & Gelecek Laboratuvarı |
-| :--- | :--- |
-| **Derin düşünce ve toplum.**<br>📂 [`sosyal_ve_beseri_bilimler/`](sosyal_ve_beseri_bilimler/)<br>• [Felsefe](sosyal_ve_beseri_bilimler/felsefe) (AI Etiği)<br>• [Sosyoloji](sosyal_ve_beseri_bilimler/sosyoloji) | **Yarının sınırlarını aşanlar.**<br>📂 [`vizyon/`](vizyon/)<br>• [Nanoteknoloji](vizyon/nanoteknoloji_ai)<br>• [Metaverse](vizyon/metaverse) |
+| ⚖️ **SOCIAL** | 📉 **ECONOMICS** | 🚀 **FRONTIER** | 🎭 **ARTS** |
+| :---: | :---: | :---: | :---: |
+| [![Soc](https://img.shields.io/badge/-SOCIAL_HUMAN-green?style=flat-square&logo=googlescholar)](DOMINION_SOCIAL_HUMAN/) | [![Econ](https://img.shields.io/badge/-ECON_&_MGMT-blue?style=flat-square&logo=chartdotjs)](DOMINION_ECONOMICS_BUSINESS/) | [![Front](https://img.shields.io/badge/-FRONTIER_TECH-purple?style=flat-square&logo=spacex)](DOMINION_FRONTIER_TECH/) | [![Arts](https://img.shields.io/badge/-ARTS_&_MEDIA-orange?style=flat-square&logo=adobe)](DOMINION_ARTS_MEDIA/) |
+| [Hukuk](DOMINION_SOCIAL_HUMAN/medeni_hukuk) | [İktisat](DOMINION_ECONOMICS_BUSINESS/iktisat) | [Biyoteknolojik](DOMINION_FRONTIER_TECH/biyoteknik_nanotıp) | [Güzel Sanatlar](DOMINION_ARTS_MEDIA/guzel_sanatlar) |
+| [Sosyoloji](DOMINION_SOCIAL_HUMAN/sosyoloji) | [İşletme](DOMINION_ECONOMICS_BUSINESS/işletme) | [Kuantum](DOMINION_FRONTIER_TECH/kuantum_mühendisligi) | [Sinema & TV](DOMINION_ARTS_MEDIA/radyo_tv_sinema) |
+| [Felsefe](DOMINION_SOCIAL_HUMAN/felsefe) | [Finans Mühendisliği](DOMINION_ECONOMICS_BUSINESS/finans_mühendisligi) | [Metaverse](DOMINION_FRONTIER_TECH/metaverse) | [UI/UX](DOMINION_ARTS_MEDIA/gorsel_iletisim_tasarimi) |
 
 ---
 
@@ -160,7 +162,7 @@ Bu repo, yaşayan ve sürekli genişleyen bir **Akademik İşletim Sistemi**'dir
 *Repodaki en derinlemesine hazırlanmış içerikleri keşfedin.*
 
 > [!IMPORTANT]
-> **[🏛️ Mimarlık Ansiklopedisi](mimarlık/README.md)**  
+> **[🏛️ DOMINION_DESIGN_CIVILIZATION](DOMINION_DESIGN_CIVILIZATION/README.md)**  
 > Geleneksel mimarlıktan fütüristik üretken tasarıma kadar, 8 ana kategoride hazırlanmış devasa bir kütüphane.
 
 ---
@@ -173,67 +175,31 @@ Bu repo, yaşayan ve sürekli genişleyen bir **Akademik İşletim Sistemi**'dir
 ```text
 university-courses/
 │   ├── readme.md
-│   ├── genel/
-│   │   ├── sozluk.md
-│   ├── hukuk/
-│   │   ├── readme.md
-│   │   ├── medeni_hukuk/
-│   │   │   ├── readme.md
-│   ├── iibf/
-│   │   ├── README.md
-│   │   ├── iktisat/
-│   │   │   ├── README.md
-│   │   ├── işletme/
-│   │   │   ├── README.md
-│   │   ├── maliye/
-│   │   │   ├── README.md
-│   ├── mimarlık/
-│   │   ├── README.md
-│   │   ├── 01_Tasarim_Studyolari/
-│   │   ├── 02_Mimarlik_Tarihi_ve_Teorisi/
-│   │   ├── 03_Yapi_Teknolojisi_ve_Malzeme/
-│   │   ├── 04_Gorsel_Iletisim_ve_Anlatim/
-│   │   ├── 05_Sehircilik_ve_Peyzaj/
-│   │   ├── 06_Restorasyon_ve_Koruma/
-│   │   ├── 07_Yapi_Fizigi_ve_Cevre/
-│   │   ├── 08_Bilgisayar_Destekli_Tasarim/
-│   ├── mühendislik/
-│   │   ├── readme.md
-│   │   ├── adli_bilisim_mühendisligi/
-│   │   ├── akustik_mühendisligi/
-│   │   ├── artırılmıs_gerceklik_mühendisligi/
-│   │   ├── endüstri_mühendisligi/
-│   │   ├── finans_mühendisligi/
-│   │   ├── harita_mühendisligi/
-│   │   ├── inşaat_mühendisligi/
-│   │   ├── jeoloji_mühendisligi/
-│   │   ├── kimya_mühendisligi/
-│   │   ├── kuantum_mühendisligi/
-│   │   ├── mekatronik_mühendisligi/
-│   │   ├── metalurji_malzeme_mühendisligi/
-│   │   ├── mühendislik_ortak/
-│   │   ├── nano_mühendislik/
-│   │   ├── nöro_mühendisligi/
-│   │   ├── optik_mühendisligi/
-│   │   ├── patlayıcı_mühendisligi/
-│   │   ├── ziraat_mühendisligi/
-│   │   ├── çevre_mühendisligi/
-│   ├── sosyal_ve_beseri_bilimler/
-│   │   ├── antropoloji/
-│   │   ├── dilbilim/
-│   │   ├── ekonomi/
-│   │   ├── felsefe/
-│   │   ├── piskoloji/
-│   │   ├── sosyoloji/
-│   ├── vizyon/
-│   │   ├── 3d_print_ai/
-│   │   ├── bci/
-│   │   ├── biyoteknik_nanotıp/
-│   │   ├── contex_engineering/
-│   │   ├── fintek_ai/
-│   │   ├── hukuk_ve_ai_etigi/
-│   │   ├── metaverse/
-│   │   ├── nanoteknoloji_ai/
+│   ├── DOMINION_ENGINEERING/
+│   │   ├── bilgisayar_mühendisligi/
+│   │   ├── elektrik_elektronik_mühendisligi/
+│   │   ├── makine_mühendisligi/
+│   │   └── ... (24+ Engineering Disciplines)
+│   ├── DOMINION_HEALTH_LIFE/
+│   │   ├── tıp/
+│   │   ├── dis_hekimligi/
+│   │   └── molekuler_biyoloji_genetik/
+│   ├── DOMINION_BASIC_SCIENCES/
+│   │   ├── matematik/
+│   │   ├── fizik/
+│   │   └── kimya/
+│   ├── DOMINION_ARTS_MEDIA/
+│   │   ├── guzel_sanatlar/
+│   │   ├── radyo_tv_sinema/
+│   │   └── gorsel_iletisim_tasarimi/
+│   ├── DOMINION_DESIGN_CIVILIZATION/
+│   │   └── ... (Architecture & Urbanism)
+│   ├── DOMINION_ECONOMICS_BUSINESS/
+│   │   └── ... (Business & Finance)
+│   ├── DOMINION_SOCIAL_HUMAN/
+│   │   └── ... (Law & Social Sciences)
+│   └── DOMINION_FRONTIER_TECH/
+│       └── ... (Visionary Tech)
 ```
 </details>
 
