@@ -7,6 +7,9 @@
 [![Status](https://img.shields.io/badge/ERA-Autonomous_Systems-black?style=for-the-badge&logo=tesla)](.)
 [![Future](https://img.shields.io/badge/FUTURE-Cognitive_Robotics-orange?style=for-the-badge&logo=openai)](.)
 
+| [🏛️ Main Command Center](../readme.md) | [🏗️ Engineering](readme.md) | [⚖️ Social & Human](../DOMINION_SOCIAL_HUMAN/readme.md) | [🚀 Frontier](../DOMINION_FRONTIER_TECH/readme.md) |
+| :---: | :---: | :---: | :---: |
+
 ---
 
 > *"Bilim insanları olanı inceler, mühendisler olmayanı yaratır."* — A. Einstein 🧪🏗️

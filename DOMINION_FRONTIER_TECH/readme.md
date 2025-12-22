@@ -7,6 +7,9 @@
 [![Eras](https://img.shields.io/badge/ERA-Quantum_&_Bio-black?style=for-the-badge&logo=tesla)](.)
 [![Future](https://img.shields.io/badge/FUTURE-Transhumanism-blue?style=for-the-badge&logo=openai)](.)
 
+| [🏛️ Main Command Center](../readme.md) | [🚀 Frontier Tech](readme.md) | [🏗️ Engineering](../DOMINION_ENGINEERING/readme.md) | [🏥 Health](../DOMINION_HEALTH_LIFE/README.md) |
+| :---: | :---: | :---: | :---: |
+
 ---
 
 > *"Gelecek zaten burada, sadece eşit dağıtılmadı. Biz o dengeyi bozmaya geldik."* 🚀✨

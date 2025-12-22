@@ -7,6 +7,9 @@
 [![Status](https://img.shields.io/badge/ERA-Digital_Renaissance-black?style=for-the-badge&logo=netflix)](.)
 [![Vision](https://img.shields.io/badge/VISION-AI_Generative_Art-orange?style=for-the-badge&logo=openai)](.)
 
+| [🏛️ Main Command Center](../readme.md) | [🎭 Arts & Media](README.md) | [🔬 Basic Sciences](../DOMINION_BASIC_SCIENCES/README.md) | [🎨 Design](../DOMINION_DESIGN_CIVILIZATION/README.md) |
+| :---: | :---: | :---: | :---: |
+
 ---
 
 > *"Sanat, dünyayı görme biçimimizdir; medya ise bu görüşü nasıl paylaştığımızdır."* 🖼️✨

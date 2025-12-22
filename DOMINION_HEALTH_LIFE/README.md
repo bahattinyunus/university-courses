@@ -7,6 +7,9 @@
 [![Status](https://img.shields.io/badge/ERA-Genomics_&_Longevity-black?style=for-the-badge&logo=bayer)](.)
 [![Vision](https://img.shields.io/badge/VISION-Post_Biological-blue?style=for-the-badge&logo=futurelearn)](.)
 
+| [🏛️ Main Command Center](../readme.md) | [🏥 Health & Life](README.md) | [🏗️ Engineering](../DOMINION_ENGINEERING/readme.md) | [🚀 Frontier](../DOMINION_FRONTIER_TECH/readme.md) |
+| :---: | :---: | :---: | :---: |
+
 ---
 
 > *"Tıp, sadece hastalıkları iyileştirmek değil, insanın biyolojik sınırlarını aşmaktır."* 💉✨
