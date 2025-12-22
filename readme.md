@@ -126,12 +126,19 @@ Teknoloji, operasyonel sınırları yok etti. Bugün, tek bir birey; AI araçlar
 | **[Elektrik-Elk.](DOMINION_ENGINEERING/elektrik_elektronik_mühendisligi)** | **[Şehircilik](DOMINION_DESIGN_CIVILIZATION/05_Sehircilik_ve_Peyzaj)** | **[Fizik](DOMINION_BASIC_SCIENCES/fizik)** | **[Eczacılık](DOMINION_HEALTH_LIFE/eczacilik)** |
 | **[Mekatronik](DOMINION_ENGINEERING/mekatronik_mühendisligi)** | **[CAD/BIM](DOMINION_DESIGN_CIVILIZATION/08_Bilgisayar_Destekli_Tasarim)** | **[Kimya](DOMINION_BASIC_SCIENCES/kimya)** | **[Genetik](DOMINION_HEALTH_LIFE/molekuler_biyoloji_genetik)** |
 
-| ⚖️ **SOCIAL** | 📉 **ECONOMICS** | 🚀 **FRONTIER** | 🎭 **ARTS** |
+| ⚖️ **SOCIAL** | 📉 **ECONOMICS** | 🚀 **FRONTIER** | 🧠 **STRATEGIC** |
 | :---: | :---: | :---: | :---: |
-| [![Soc](https://img.shields.io/badge/-SOCIAL_HUMAN-green?style=flat-square&logo=googlescholar)](DOMINION_SOCIAL_HUMAN/) | [![Econ](https://img.shields.io/badge/-ECON_&_MGMT-blue?style=flat-square&logo=chartdotjs)](DOMINION_ECONOMICS_BUSINESS/) | [![Front](https://img.shields.io/badge/-FRONTIER_TECH-purple?style=flat-square&logo=spacex)](DOMINION_FRONTIER_TECH/) | [![Arts](https://img.shields.io/badge/-ARTS_&_MEDIA-orange?style=flat-square&logo=adobe)](DOMINION_ARTS_MEDIA/) |
-| **[Hukuk](DOMINION_SOCIAL_HUMAN/medeni_hukuk)** | **[İktisat](DOMINION_ECONOMICS_BUSINESS/iktisat)** | **[Kuantum](DOMINION_FRONTIER_TECH/kuantum_mühendisligi)** | **[Güzel Sanatlar](DOMINION_ARTS_MEDIA/guzel_sanatlar)** |
-| **[Sosyoloji](DOMINION_SOCIAL_HUMAN/sosyoloji)** | **[İşletme](DOMINION_ECONOMICS_BUSINESS/işletme)** | **[Metaverse](DOMINION_FRONTIER_TECH/metaverse)** | **[Sinema & TV](DOMINION_ARTS_MEDIA/radyo_tv_sinema)** |
-| **[Felsefe](DOMINION_SOCIAL_HUMAN/felsefe)** | **[Finans](DOMINION_ECONOMICS_BUSINESS/finans_mühendisligi)** | **[BCI](DOMINION_FRONTIER_TECH/bci)** | **[UI/UX](DOMINION_ARTS_MEDIA/gorsel_iletisim_tasarimi)** |
+| [![Soc](https://img.shields.io/badge/-SOCIAL_HUMAN-green?style=flat-square&logo=googlescholar)](DOMINION_SOCIAL_HUMAN/) | [![Econ](https://img.shields.io/badge/-ECON_&_MGMT-blue?style=flat-square&logo=chartdotjs)](DOMINION_ECONOMICS_BUSINESS/) | [![Front](https://img.shields.io/badge/-FRONTIER_TECH-purple?style=flat-square&logo=spacex)](DOMINION_FRONTIER_TECH/) | [![Strat](https://img.shields.io/badge/-STRATEGIC_IQ-black?style=flat-square&logo=chess.com)](DOMINION_STRATEGIC_INTELLIGENCE/) |
+| **[Hukuk](DOMINION_SOCIAL_HUMAN/medeni_hukuk)** | **[İktisat](DOMINION_ECONOMICS_BUSINESS/iktisat)** | **[Kuantum](DOMINION_FRONTIER_TECH/kuantum_mühendisligi)** | **[Oyun Teorisi](DOMINION_STRATEGIC_INTELLIGENCE/README.md)** |
+| **[Sosyoloji](DOMINION_SOCIAL_HUMAN/sosyoloji)** | **[İşletme](DOMINION_ECONOMICS_BUSINESS/işletme)** | **[Metaverse](DOMINION_FRONTIER_TECH/metaverse)** | **[Zihinsel Modeller](DOMINION_STRATEGIC_INTELLIGENCE/README.md)** |
+| **[Felsefe](DOMINION_SOCIAL_HUMAN/felsefe)** | **[Finans](DOMINION_ECONOMICS_BUSINESS/finans_mühendisligi)** | **[BCI](DOMINION_FRONTIER_TECH/bci)** | **[Strateji](DOMINION_STRATEGIC_INTELLIGENCE/README.md)** |
+
+| 💎 **MASTERY** | 🎭 **ARTS** | 🏗️ **ARCHITECT** | 🏥 **HEALTH** |
+| :---: | :---: | :---: | :---: |
+| [![Mastery](https://img.shields.io/badge/-PERSONAL_MASTERY-gold?style=flat-square&logo=target)](DOMINION_PERSONAL_MASTERY/) | [![Arts](https://img.shields.io/badge/-ARTS_&_MEDIA-orange?style=flat-square&logo=adobe)](DOMINION_ARTS_MEDIA/) | [![Des](https://img.shields.io/badge/-DESIGN-blue?style=flat-square&logo=autodesk)](DOMINION_DESIGN_CIVILIZATION/) | [![Health](https://img.shields.io/badge/-HEALTH_&_LIFE-red?style=flat-square&logo=redcross)](DOMINION_HEALTH_LIFE/) |
+| **[Deep Work](DOMINION_PERSONAL_MASTERY/README.md)** | **[Güz. Sanatlar](DOMINION_ARTS_MEDIA/guzel_sanatlar)** | **[Mimarlık](DOMINION_DESIGN_CIVILIZATION/01_Tasarim_Studyolari)** | **[Tıp Fakültesi](DOMINION_HEALTH_LIFE/tıp)** |
+| **[Bio-Hacking](DOMINION_PERSONAL_MASTERY/README.md)** | **[Sinema & TV](DOMINION_ARTS_MEDIA/radyo_tv_sinema)** | **[Şehircilik](DOMINION_DESIGN_CIVILIZATION/05_Sehircilik_ve_Peyzaj)** | **[Eczacılık](DOMINION_HEALTH_LIFE/eczacilik)** |
+| **[Verimlilik](DOMINION_PERSONAL_MASTERY/README.md)** | **[UI/UX](DOMINION_ARTS_MEDIA/gorsel_iletisim_tasarimi)** | **[CAD/BIM](DOMINION_DESIGN_CIVILIZATION/08_Bilgisayar_Destekli_Tasarim)** | **[Genetik](DOMINION_HEALTH_LIFE/molekuler_biyoloji_genetik)** |
 
 ---
 
@@ -144,14 +151,25 @@ Teknoloji, operasyonel sınırları yok etti. Bugün, tek bir birey; AI araçlar
 
 | Branş | Modül / Ders |
 | :--- | :--- |
-| 💻 **Bilgisayar & Yazılım** | [Bilgisayar Mühendisliği](DOMINION_ENGINEERING/bilgisayar_mühendisligi) • [Yazılım Mühendisliği](DOMINION_ENGINEERING/yazilim_mühendisligi) • [Adli Bilişim](DOMINION_ENGINEERING/adli_bilisim_mühendisligi) |
-| ⚡ **Elektrik & Elektronik** | [Elektrik-Elektronik Mühendisliği](DOMINION_ENGINEERING/elektrik_elektronik_mühendisligi) • [Optik Mühendisliği](DOMINION_ENGINEERING/optik_mühendisligi) |
-| ⚙️ **Mekanik & Sistem** | [Makine Mühendisliği](DOMINION_ENGINEERING/makine_mühendisligi) • [Mekatronik Mühendisliği](DOMINION_ENGINEERING/mekatronik_mühendisligi) • [İmalat Mühendisliği](DOMINION_ENGINEERING/mekatronik_mühendisligi/imalat_mühendisligi) |
+| 💻 **Yazılım & IT** | [Bilgisayar Mühendisliği](DOMINION_ENGINEERING/bilgisayar_mühendisligi) • [Yazılım Mühendisliği](DOMINION_ENGINEERING/yazilim_mühendisligi) • [Bilişim Sistemleri](DOMINION_ENGINEERING/bilişim_sistemleri_mühendisligi) • [Adli Bilişim](DOMINION_ENGINEERING/adli_bilisim_mühendisligi) |
+| ⚡ **Elektronik & Haberleşme** | [Elektrik-Elektronik Mühendisliği](DOMINION_ENGINEERING/elektrik_elektronik_mühendisligi) • [Elektronik Haberleşme Mühendisliği](DOMINION_ENGINEERING/elektronik_haberlesme_muhendisligi) • [Optik Mühendisliği](DOMINION_ENGINEERING/optik_mühendisligi) |
+| 🤖 **Robotik & AI** | [Mekatronik Mühendisliği](DOMINION_ENGINEERING/mekatronik_mühendisligi) • [Yapay Zeka ve Veri Mühendisliği](DOMINION_ENGINEERING/yapay_zeka_ve_veri_mühendisligi) • [Kontrol ve Otomasyon](DOMINION_ENGINEERING/kontrol-otomasyon_mühendisligi) |
+| ⚙️ **Mekanik & İmalat** | [Makine Mühendisliği](DOMINION_ENGINEERING/makine_mühendisligi) • [İmalat Mühendisliği](DOMINION_ENGINEERING/imalat_mühendisligi) • [Endüstriyel Tasarım Mühendisliği](DOMINION_ENGINEERING/endustriyel_tasarim_muhendisligi) |
+| 🏗️ **İnşaat & Enerji** | [İnşaat Mühendisliği](DOMINION_ENGINEERING/inşaat_mühendisligi) • [Enerji Sistemleri Mühendisliği](DOMINION_ENGINEERING/enerji-sistemleri_mühendisligi) • [Harita Mühendisliği](DOMINION_ENGINEERING/harita_mühendisligi) |
 | ✈️ **Havacılık & Uzay** | [Havacılık ve Uzay Mühendisliği](DOMINION_ENGINEERING/havacilik_uzay_mühendisligi) |
-| 🏗️ **Yapı & Arsa** | [İnşaat Mühendisliği](DOMINION_ENGINEERING/inşaat_mühendisligi) • [Harita Mühendisliği](DOMINION_ENGINEERING/harita_mühendisligi) • [Jeoloji Mühendisliği](DOMINION_ENGINEERING/jeoloji_mühendisligi) |
-| 🧪 **Proses & Malzeme** | [Kimya Mühendisliği](DOMINION_ENGINEERING/kimya_mühendisligi) • [Metalurji ve Malzeme Mühendisliği](DOMINION_ENGINEERING/metalurji_malzeme_mühendisligi) |
-| 🌾 **Doğa & Kaynak** | [Ziraat Mühendisliği](DOMINION_ENGINEERING/ziraat_mühendisligi) • [Çevre Mühendisliği](DOMINION_ENGINEERING/çevre_mühendisligi) |
-| 🛡️ **Stratejik & Diğer** | [Endüstri Mühendisliği](DOMINION_ENGINEERING/endüstri_mühendisligi) • [Patlayıcı Mühendisliği](DOMINION_ENGINEERING/patlayıcı_mühendisligi) • [Akustik Mühendisliği](DOMINION_ENGINEERING/akustik_mühendisligi) |
+| 🧪 **Proses & Malzeme** | [Kimya Mühendisliği](DOMINION_ENGINEERING/kimya_mühendisligi) • [Metalurji ve Malzeme Mühendisliği](DOMINION_ENGINEERING/metalurji_malzeme_mühendisligi) • [Jeoloji Mühendisliği](DOMINION_ENGINEERING/jeoloji_mühendisligi) |
+| 🌾 **Ziraat & Çevre** | [Ziraat Mühendisliği](DOMINION_ENGINEERING/ziraat_mühendisligi) • [Çevre Mühendisliği](DOMINION_ENGINEERING/çevre_mühendisligi) |
+
+</details>
+
+<details>
+<summary><b>🧠 DOMINION_STRATEGIC & 💎 PERSONAL MASTERY - Tıklayın</b></summary>
+<br>
+
+| Kategori | Erişim |
+| :--- | :--- |
+| ♟️ **Stratejik Zeka** | [Oyun Teorisi](DOMINION_STRATEGIC_INTELLIGENCE/README.md) • [Zihinsel Modeller](DOMINION_STRATEGIC_INTELLIGENCE/README.md) • [Jeopolitik](DOMINION_STRATEGIC_INTELLIGENCE/README.md) |
+| 🦾 **Kişisel Ustalık** | [Deep Work](DOMINION_PERSONAL_MASTERY/README.md) • [Bio-Hacking](DOMINION_PERSONAL_MASTERY/README.md) • [Zihinsel Dayanıklılık](DOMINION_PERSONAL_MASTERY/README.md) |
 
 </details>
 
