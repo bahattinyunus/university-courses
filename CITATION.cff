@@ -1,17 +1,26 @@
 cff-version: 1.2.0
-message: "If you use these notes for academic or personal research, please cite them as below."
+message: "If you use this academic operating system or research curriculum for academic or personal research, please cite it as below."
 authors:
 - family-names: "Çetin"
   given-names: "Bahattin Yunus"
-title: "University Courses: Academic Notes & Archives"
-version: 2.0.0
-date-released: 2025-01-01
+  orcid: "https://orcid.org/0009-0005-0000-0000"
+title: "University Courses (UC): Evrensel Akademik İşletim Sistemi & Solopreneur Bilgi Mimarisi"
+abstract: "A high-density open-source universal academic operating system and knowledge architecture covering 374 academic disciplines across 21 containers with a standardized 7-tier protocol (00-06), 2,618 curriculum modules, polymathic mental models, and an automated CLI search indexer."
+version: 4.5.0
+date-released: 2026-10-29
 url: "https://github.com/bahattinyunus/university-courses"
+repository-code: "https://github.com/bahattinyunus/university-courses"
 keywords:
+  - polymath
+  - knowledge-base
   - engineering
-  - law
-  - economics
-  - social-sciences
-  - lecture-notes
+  - computer-science
+  - natural-sciences
+  - philosophy
+  - cognitive-architecture
+  - open-science
+  - second-brain
+  - university-curriculum
+  - academic-system
 type: dataset
 license: MIT

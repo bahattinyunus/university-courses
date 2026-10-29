@@ -7,6 +7,12 @@ import sys
 import argparse
 from pathlib import Path
 
+# Safe stdout/stderr encoding for Windows
+if hasattr(sys.stdout, 'reconfigure'):
+    sys.stdout.reconfigure(encoding='utf-8', errors='replace')
+if hasattr(sys.stderr, 'reconfigure'):
+    sys.stderr.reconfigure(encoding='utf-8', errors='replace')
+
 # Add scripts directory to sys.path
 SCRIPTS_DIR = os.path.dirname(os.path.abspath(__file__))
 ROOT_DIR = os.path.dirname(SCRIPTS_DIR)
@@ -15,6 +21,7 @@ sys.path.insert(0, SCRIPTS_DIR)
 from final_sanity_check import final_sanity_check
 from generate_summary import generate_summary
 from generate_encyclopedic_readme import generate_encyclopedic_readme
+from search_curriculum import build_index, search_curriculum, print_results, interactive_mode
 
 def print_repo_stats():
     md_count = 0
@@ -64,19 +71,33 @@ def main():
     parser.add_argument("--verify", action="store_true", help="Run repository sanity checks")
     parser.add_argument("--build-readme", action="store_true", help="Generate README.md")
     parser.add_argument("--build-summary", action="store_true", help="Generate SUMMARY.md")
-    parser.add_argument("--build-all", action="store_true", help="Run verification and regenerate both README and SUMMARY")
+    parser.add_argument("--build-index", action="store_true", help="Generate assets/curriculum_index.json")
+    parser.add_argument("--build-all", action="store_true", help="Run verification and regenerate README, SUMMARY, and Search Index")
+    parser.add_argument("--search", "-s", type=str, help="Search curriculum for academic departments or topics")
+    parser.add_argument("--interactive", "-i", action="store_true", help="Launch interactive CLI curriculum search navigator")
 
     args = parser.parse_args()
 
+    if args.interactive:
+        interactive_mode()
+        return
+
+    if args.search:
+        results = search_curriculum(args.search)
+        print_results(results, args.search)
+        return
+
     if len(sys.argv) == 1 or args.build_all:
-        print("[1/3] Running verification...")
+        print("[1/4] Running repository integrity verification...")
         if not final_sanity_check():
             print("[ERROR] Integrity check failed. Aborting build.")
             sys.exit(1)
-        print("[2/3] Generating SUMMARY.md...")
+        print("[2/4] Generating SUMMARY.md...")
         generate_summary()
-        print("[3/3] Generating README.md...")
+        print("[3/4] Generating README.md...")
         generate_encyclopedic_readme()
+        print("[4/4] Building assets/curriculum_index.json...")
+        build_index()
         print_repo_stats()
         print("\n[SUCCESS] Full repository verification and build completed successfully!")
         return
@@ -89,6 +110,8 @@ def main():
         generate_summary()
     if args.build_readme:
         generate_encyclopedic_readme()
+    if args.build_index:
+        build_index()
 
 if __name__ == "__main__":
     main()

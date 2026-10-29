@@ -1,84 +1,75 @@
-# 🔧 Git Komutları - Kodları GitHub'a Yükleme
+# 🔧 Git ve UAOS Yönetim Komutları Rehberi
 
-Dosyalar oluşturuldu ancak henüz git'e eklenmedi. Aşağıdaki komutları sırayla çalıştırarak dosyaları GitHub'a yükleyebilirsiniz.
+Bu belge, **University Courses (UC) / Evrensel Akademik İşletim Sistemi (UAOS)** deposunun yerel yönetimi, arama araçları, indeksleme otomasyonu ve GitHub iş akışı için pratik rehberdir.
 
-## 📋 Adım Adım Talimatlar
+---
 
-### 1. Terminal/Command Prompt'u açın
-Repository klasörüne gidin:
+## 🚀 UAOS Yönetim Araçları (CLI)
+
+Repository içerisinde yerleşik olarak gelen Python yönetim araçlarını kullanarak repo durumunu kontrol edebilir, arama yapabilir ve indeksleri yeniden üretebilirsiniz:
+
+### 1. Müfredatta Anlık Arama Yapma
 ```bash
-cd "C:\github repolarım\engineering-courses"
+# Anahtar kelime ile arama
+python scripts/manage_repo.py --search "yapay zeka"
+python scripts/manage_repo.py --search "kuantum"
+
+# Doğrudan arama aracıyla
+python scripts/search_curriculum.py "robotik"
 ```
 
-### 2. Git durumunu kontrol edin
+### 2. İnteraktif Terminal Arama Gezgini
 ```bash
-git status
+python scripts/manage_repo.py --interactive
+# veya
+python scripts/search_curriculum.py --interactive
 ```
 
-### 3. Tüm dosyaları ekleyin
+### 3. Repository Bütünlük Doğrulama ve Tam İndeksleme
 ```bash
-git add .
+# CI/CD öncesinde tüm düğümleri doğrular ve README/SUMMARY/İndeksi üretir
+python scripts/manage_repo.py --build-all
 ```
 
-### 4. Commit yapın
+### 4. İstatistikleri Görüntüleme
 ```bash
-git commit -m "Kod örnekleri eklendi: algoritma, betik_diller, veri_tabanı, fizik, görüntü_isleme"
-```
-
-### 5. GitHub'a push edin
-```bash
-git push origin main
-```
-
-Eğer `main` branch yoksa:
-```bash
-git push origin master
-```
-
-## 🆕 İlk kez push ediyorsanız
-
-Eğer remote repository henüz ayarlanmamışsa:
-
-```bash
-# Remote ekle (GitHub repository URL'inizi kullanın)
-git remote add origin https://github.com/KULLANICI_ADI/engineering-courses.git
-
-# Branch'i main olarak ayarla
-git branch -M main
-
-# İlk push
-git push -u origin main
-```
-
-## ✅ Kontrol
-
-Push işleminden sonra GitHub'da şu klasörler görünmelidir:
-
-- `algoritma/examples/`
-- `betik_diller/examples/`
-- `veri tabanı/examples/`
-- `fizik/examples/`
-- `görüntü_isleme/examples/`
-
-## 🔍 Sorun Giderme
-
-### "fatal: not a git repository" hatası alıyorsanız:
-```bash
-git init
-```
-
-### "remote origin already exists" hatası alıyorsanız:
-```bash
-git remote set-url origin https://github.com/KULLANICI_ADI/engineering-courses.git
-```
-
-### Dosyalar görünmüyorsa:
-```bash
-git add .
-git status  # Eklenen dosyaları kontrol edin
+python scripts/manage_repo.py --stats
 ```
 
 ---
 
-**Not:** Eğer PowerShell'de Türkçe karakter sorunu yaşıyorsanız, Git Bash veya Command Prompt kullanabilirsiniz.
+## 📋 Git İş Akışı ve GitHub'a Yükleme
 
+### 1. Terminalde Repository Dizinine Gidin
+```bash
+cd "g:\Diğer bilgisayarlar\Dizüstü Bilgisayarım\github repolarım\universty-courses"
+```
+
+### 2. Git Durumunu Kontrol Edin
+```bash
+git status
+```
+
+### 3. Değişiklikleri Sahneye Ekleyin
+```bash
+git add .
+```
+
+### 4. Anlamlı Bir Commit Mesajı ile Kaydedin
+```bash
+git commit -m "feat(core): comprehensive academic normalization, search engine, and polymathic ontology"
+```
+
+### 5. GitHub'a Gönderin (Push)
+```bash
+git push origin main
+```
+
+---
+
+## 🛡️ Otomatik CI Doğrulaması
+
+Yapılan her push sonrasında GitHub Actions (`.github/workflows/validate.yml`) şu kontrolleri otomatik olarak çalıştırır:
+1. `python scripts/final_sanity_check.py` (21 Konteyner, 374 Disiplin, 2618 Kademe varlığı)
+2. `python scripts/manage_repo.py --build-all` (Otomatik derleme senkronizasyonu)
+3. `git status --porcelain` (Temiz ve senkronize durum kontrolü)
