@@ -21,7 +21,7 @@ sys.path.insert(0, SCRIPTS_DIR)
 from final_sanity_check import final_sanity_check
 from generate_summary import generate_summary
 from generate_encyclopedic_readme import generate_encyclopedic_readme
-from search_curriculum import build_index, search_curriculum, print_results, interactive_mode
+from search_curriculum import build_index, search_curriculum, print_results, interactive_mode, list_all_research_papers
 
 def print_repo_stats():
     md_count = 0
@@ -74,9 +74,14 @@ def main():
     parser.add_argument("--build-index", action="store_true", help="Generate assets/curriculum_index.json")
     parser.add_argument("--build-all", action="store_true", help="Run verification and regenerate README, SUMMARY, and Search Index")
     parser.add_argument("--search", "-s", type=str, help="Search curriculum for academic departments or topics")
+    parser.add_argument("--research", "-r", action="store_true", help="List all advanced academic and technological research monographs")
     parser.add_argument("--interactive", "-i", action="store_true", help="Launch interactive CLI curriculum search navigator")
 
     args = parser.parse_args()
+
+    if args.research:
+        list_all_research_papers()
+        return
 
     if args.interactive:
         interactive_mode()

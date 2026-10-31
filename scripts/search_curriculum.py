@@ -101,26 +101,43 @@ def build_index() -> list:
             rel_path = f"{container_key}/{dept_slug}"
             name = format_dept_name(dept_slug)
 
-            # Discover tiers
+            # Discover tiers & research monographs
             tiers = []
-            for t_dir in sorted(os.listdir(dept_path)):
-                tp = os.path.join(dept_path, t_dir)
-                if os.path.isdir(tp) and t_dir.startswith(('00_', '01_', '02_', '03_', '04_', '05_', '06_')):
-                    tier_code = t_dir[:2]
-                    tier_label = TIER_NAMES.get(tier_code, t_dir[3:].replace('_', ' '))
-                    tiers.append({
-                        "code": tier_code,
-                        "dir": t_dir,
-                        "label": tier_label,
-                        "path": f"{rel_path}/{t_dir}"
-                    })
-
-            # Generate search tokens
+            research_papers = []
             tokens = set()
             tokens.update(dept_slug.lower().split('_'))
             tokens.update(normalize_text(name).split())
             tokens.add(container_key.lower())
             tokens.add(normalize_text(CONTAINER_TITLES[container_key]))
+
+            for t_dir in sorted(os.listdir(dept_path)):
+                tp = os.path.join(dept_path, t_dir)
+                if os.path.isdir(tp) and t_dir.startswith(('00_', '01_', '02_', '03_', '04_', '05_', '06_')):
+                    tier_code = t_dir[:2]
+                    tier_label = TIER_NAMES.get(tier_code, t_dir[3:].replace('_', ' '))
+                    
+                    tier_files = []
+                    for tf in sorted(os.listdir(tp)):
+                        if tf.endswith('.md') and tf.lower() != 'readme.md':
+                            f_path = f"{rel_path}/{t_dir}/{tf}"
+                            tier_files.append({"filename": tf, "path": f_path})
+                            if tf.startswith('arastirma_'):
+                                clean_name = tf.replace('arastirma_', '').replace('.md', '').replace('_', ' ').title()
+                                research_papers.append({
+                                    "title": clean_name,
+                                    "filename": tf,
+                                    "path": f_path,
+                                    "tier": tier_code
+                                })
+                                tokens.update(normalize_text(clean_name).split())
+                    
+                    tiers.append({
+                        "code": tier_code,
+                        "dir": t_dir,
+                        "label": tier_label,
+                        "path": f"{rel_path}/{t_dir}",
+                        "files": tier_files
+                    })
 
             entry = {
                 "slug": dept_slug,
@@ -130,6 +147,7 @@ def build_index() -> list:
                 "path": rel_path,
                 "tier_count": len(tiers),
                 "tiers": tiers,
+                "research_papers": research_papers,
                 "tokens": sorted(list(tokens))
             }
             index_data.append(entry)
@@ -192,8 +210,29 @@ def print_results(results: list, query: str):
         print(f"    Konteyner: {item['container_title']}")
         print(f"    Konum    : ./{item['path']}/")
         print(f"    Kademeler: {item['tier_count']} Standart Kademe (00-06)")
+        if item.get("research_papers"):
+            print(f"    🔬 Özgün Araştırma Monografları ({len(item['research_papers'])} Adet):")
+            for rp in item["research_papers"]:
+                print(f"       • {rp['title']} (./{rp['path']})")
         print(f"    Dizin    : https://github.com/bahattinyunus/university-courses/tree/main/{item['path']}")
     print("\n" + "=" * 70)
+
+def list_all_research_papers():
+    """Tüm depodaki ileri seviye araştırma monograflarını listeler."""
+    index = load_index()
+    all_papers = []
+    for item in index:
+        for rp in item.get("research_papers", []):
+            all_papers.append((item, rp))
+            
+    print("=" * 75)
+    print(f" 📚 UAOS İLERİ AKADEMİK VE TEKNOLOJİK ARAŞTIRMA MONOGRAFLARI ({len(all_papers)} Eser)")
+    print("=" * 75)
+    for idx, (item, rp) in enumerate(all_papers, 1):
+        print(f"[{idx:02d}] 📑 {rp['title']}")
+        print(f"     Disiplin : {item['name']} ({item['container_title']})")
+        print(f"     Dosya    : ./{rp['path']}")
+    print("=" * 75)
 
 def interactive_mode():
     print("=" * 70)
@@ -223,8 +262,13 @@ def main():
     parser.add_argument("--interactive", "-i", action="store_true", help="İnteraktif terminal arama modunu başlat")
     parser.add_argument("--limit", "-l", type=int, default=15, help="Maksimum sonuç sayısı")
     parser.add_argument("--json", action="store_true", help="Sonuçları JSON formatında çıktı ver")
+    parser.add_argument("--research", "-r", action="store_true", help="Tüm ileri araştırma monograflarını listele")
 
     args = parser.parse_args()
+
+    if args.research:
+        list_all_research_papers()
+        return
 
     if args.build_index:
         index = build_index()
