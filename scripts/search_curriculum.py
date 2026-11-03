@@ -6,6 +6,7 @@ Bu araç 21 konteyner, 374 akademik disiplin ve 2618 kademeyi anında tarar, ara
 
 import os
 import sys
+import re
 import json
 import argparse
 import unicodedata
@@ -122,14 +123,28 @@ def build_index() -> list:
                             f_path = f"{rel_path}/{t_dir}/{tf}"
                             tier_files.append({"filename": tf, "path": f_path})
                             if tf.startswith('arastirma_'):
-                                clean_name = tf.replace('arastirma_', '').replace('.md', '').replace('_', ' ').title()
+                                full_fpath = os.path.join(tp, tf)
+                                title = tf.replace('arastirma_', '').replace('.md', '').replace('_', ' ').title()
+                                try:
+                                    with open(full_fpath, 'r', encoding='utf-8') as rf:
+                                        for line in rf:
+                                            line_s = line.strip()
+                                            if line_s.startswith('# '):
+                                                raw_t = re.sub(r'^#\s*[^\w\s]*\s*', '', line_s)
+                                                if raw_t:
+                                                    title = raw_t
+                                                break
+                                except Exception:
+                                    pass
+
                                 research_papers.append({
-                                    "title": clean_name,
+                                    "title": title,
                                     "filename": tf,
                                     "path": f_path,
                                     "tier": tier_code
                                 })
-                                tokens.update(normalize_text(clean_name).split())
+                                tokens.update(normalize_text(title).split())
+                                tokens.update(tf.replace('.md', '').split('_'))
                     
                     tiers.append({
                         "code": tier_code,

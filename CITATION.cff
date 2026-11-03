@@ -5,9 +5,9 @@ authors:
   given-names: "Bahattin Yunus"
   orcid: "https://orcid.org/0009-0005-0000-0000"
 title: "University Courses (UC): Evrensel Akademik İşletim Sistemi & Solopreneur Bilgi Mimarisi"
-abstract: "A high-density open-source universal academic operating system and knowledge architecture covering 374 academic disciplines across 21 containers with a standardized 7-tier protocol (00-06), 2,618 curriculum modules, polymathic mental models, and an automated CLI search indexer."
-version: 4.5.0
-date-released: 2026-10-29
+abstract: "A high-density open-source universal academic operating system and knowledge architecture covering 374 academic disciplines across 21 containers with a standardized 7-tier protocol (00-06), 2,618 curriculum modules, 20 cutting-edge research monographs, polymathic mental models, and an automated CLI search indexer."
+version: 4.6.0
+date-released: 2026-11-03
 url: "https://github.com/bahattinyunus/university-courses"
 repository-code: "https://github.com/bahattinyunus/university-courses"
 keywords:

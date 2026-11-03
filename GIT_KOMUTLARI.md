@@ -18,20 +18,28 @@ python scripts/manage_repo.py --search "kuantum"
 python scripts/search_curriculum.py "robotik"
 ```
 
-### 2. İnteraktif Terminal Arama Gezgini
+### 2. İleri Araştırma Monograflarını Listeleme
+```bash
+# Depodaki tüm 20 ileri akademik ve teknolojik araştırma monografını listeler
+python scripts/manage_repo.py --research
+# veya
+python scripts/search_curriculum.py --research
+```
+
+### 3. İnteraktif Terminal Arama Gezgini
 ```bash
 python scripts/manage_repo.py --interactive
 # veya
 python scripts/search_curriculum.py --interactive
 ```
 
-### 3. Repository Bütünlük Doğrulama ve Tam İndeksleme
+### 4. Repository Bütünlük Doğrulama ve Tam İndeksleme
 ```bash
 # CI/CD öncesinde tüm düğümleri doğrular ve README/SUMMARY/İndeksi üretir
 python scripts/manage_repo.py --build-all
 ```
 
-### 4. İstatistikleri Görüntüleme
+### 5. İstatistikleri Görüntüleme
 ```bash
 python scripts/manage_repo.py --stats
 ```

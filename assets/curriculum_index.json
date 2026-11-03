@@ -381,7 +381,12 @@
         "dir": "04_Arastirma_ve_Bitirme",
         "label": "Araştırma ve Bitirme",
         "path": "askeri_bilimler_ve_savunma_teknolojileri/siber_savunma_ve_elektronik_harp/04_Arastirma_ve_Bitirme",
-        "files": []
+        "files": [
+          {
+            "filename": "arastirma_elektronik_harp_ve_bilissel_radar_karistiricilar.md",
+            "path": "askeri_bilimler_ve_savunma_teknolojileri/siber_savunma_ve_elektronik_harp/04_Arastirma_ve_Bitirme/arastirma_elektronik_harp_ve_bilissel_radar_karistiricilar.md"
+          }
+        ]
       },
       {
         "code": "05",
@@ -398,12 +403,29 @@
         "files": []
       }
     ],
-    "research_papers": [],
+    "research_papers": [
+      {
+        "title": "Elektronik Harp (EW), Bilişsel Radar Karıştırıcılar ve Sayısal RF Bellek (DRFM) Mimarisi",
+        "filename": "arastirma_elektronik_harp_ve_bilissel_radar_karistiricilar.md",
+        "path": "askeri_bilimler_ve_savunma_teknolojileri/siber_savunma_ve_elektronik_harp/04_Arastirma_ve_Bitirme/arastirma_elektronik_harp_ve_bilissel_radar_karistiricilar.md",
+        "tier": "04"
+      }
+    ],
     "tokens": [
+      "(drfm)",
+      "(ew),",
+      "arastirma",
       "askeri_bilimler_ve_savunma_teknolojileri",
+      "bellek",
+      "bilissel",
       "elektronik",
       "harp",
+      "karistiricilar",
+      "mimarisi",
+      "radar",
+      "rf",
       "savunma",
+      "sayisal",
       "siber",
       "ve",
       "⚔️ savunma sanayii, harp doktrini & askeri strateji"
@@ -1755,21 +1777,27 @@
     ],
     "research_papers": [
       {
-        "title": "Polimatik Bilissel Mimari Ve Ikinci Beyin",
+        "title": "Polimatik Bilişsel Mimari, İkinci Beyin (PKM) ve Yüksek Kaldıraçlı Zihin Sistemleri",
         "filename": "arastirma_polimatik_bilissel_mimari_ve_ikinci_beyin.md",
         "path": "epistemik/zihin_mimarisi/04_Arastirma_ve_Bitirme/arastirma_polimatik_bilissel_mimari_ve_ikinci_beyin.md",
         "tier": "04"
       }
     ],
     "tokens": [
+      "(pkm)",
+      "arastirma",
       "beyin",
       "bilissel",
       "epistemik",
       "ikinci",
+      "kaldiracli",
       "mimari",
+      "mimari,",
       "mimarisi",
       "polimatik",
+      "sistemleri",
       "ve",
+      "yuksek",
       "zihin",
       "👁️ epistemik vizyon & bilgi felsefesi"
     ]
@@ -2646,7 +2674,7 @@
     ],
     "research_papers": [
       {
-        "title": "Yapay Zeka Hukuku Ve Algoritmik Sorumluluk",
+        "title": "Yapay Zeka Hukuku, Algoritmik Sorumluluk ve Otonom Sistemlerin Hukuki Statüsü",
         "filename": "arastirma_yapay_zeka_hukuku_ve_algoritmik_sorumluluk.md",
         "path": "hukuk_bilimi/hukuk/04_Arastirma_ve_Bitirme/arastirma_yapay_zeka_hukuku_ve_algoritmik_sorumluluk.md",
         "tier": "04"
@@ -2654,10 +2682,16 @@
     ],
     "tokens": [
       "algoritmik",
+      "arastirma",
       "hukuk",
       "hukuk_bilimi",
+      "hukuki",
       "hukuku",
+      "hukuku,",
+      "otonom",
+      "sistemlerin",
       "sorumluluk",
+      "statusu",
       "ve",
       "yapay",
       "zeka",
@@ -4342,20 +4376,28 @@
     ],
     "research_papers": [
       {
-        "title": "Dagitik Sistemler Ve Konsensus Protokolleri",
+        "title": "Dağıtık Sistemler, Konsensüs Protokolleri (Paxos, Raft, BFT) ve CAP Teoremi Mimarisi",
         "filename": "arastirma_dagitik_sistemler_ve_konsensus_protokolleri.md",
         "path": "meta_muhendislik/bilgisayar_muhendisligi/04_Arastirma_ve_Bitirme/arastirma_dagitik_sistemler_ve_konsensus_protokolleri.md",
         "tier": "04"
       }
     ],
     "tokens": [
+      "(paxos,",
+      "arastirma",
+      "bft)",
       "bilgisayar",
+      "cap",
       "dagitik",
       "konsensus",
       "meta_muhendislik",
+      "mimarisi",
       "muhendisligi",
       "protokolleri",
+      "raft,",
       "sistemler",
+      "sistemler,",
+      "teoremi",
       "ve",
       "🛠️ muhendislik & ileri teknoloji bilimleri"
     ]
@@ -5804,7 +5846,12 @@
         "dir": "04_Arastirma_ve_Bitirme",
         "label": "Araştırma ve Bitirme",
         "path": "meta_muhendislik/havacilik_ve_uzay_muhendisligi/04_Arastirma_ve_Bitirme",
-        "files": []
+        "files": [
+          {
+            "filename": "arastirma_hipersonik_itki_ve_orbital_mekanik.md",
+            "path": "meta_muhendislik/havacilik_ve_uzay_muhendisligi/04_Arastirma_ve_Bitirme/arastirma_hipersonik_itki_ve_orbital_mekanik.md"
+          }
+        ]
       },
       {
         "code": "05",
@@ -5821,13 +5868,30 @@
         "files": []
       }
     ],
-    "research_papers": [],
+    "research_papers": [
+      {
+        "title": "Hipersonik İtki Sistemleri, Scramjet Termodinamiği ve Yörünge Mekaniği",
+        "filename": "arastirma_hipersonik_itki_ve_orbital_mekanik.md",
+        "path": "meta_muhendislik/havacilik_ve_uzay_muhendisligi/04_Arastirma_ve_Bitirme/arastirma_hipersonik_itki_ve_orbital_mekanik.md",
+        "tier": "04"
+      }
+    ],
     "tokens": [
+      "arastirma",
       "havacilik",
+      "hipersonik",
+      "itki",
+      "mekanigi",
+      "mekanik",
       "meta_muhendislik",
       "muhendisligi",
+      "orbital",
+      "scramjet",
+      "sistemleri,",
+      "termodinamigi",
       "uzay",
       "ve",
+      "yorunge",
       "🛠️ muhendislik & ileri teknoloji bilimleri"
     ]
   },
@@ -6739,7 +6803,12 @@
         "dir": "04_Arastirma_ve_Bitirme",
         "label": "Araştırma ve Bitirme",
         "path": "meta_muhendislik/mekatronik_muhendisligi/04_Arastirma_ve_Bitirme",
-        "files": []
+        "files": [
+          {
+            "filename": "arastirma_insansi_robotik_ve_dinamik_denge_kontrolu.md",
+            "path": "meta_muhendislik/mekatronik_muhendisligi/04_Arastirma_ve_Bitirme/arastirma_insansi_robotik_ve_dinamik_denge_kontrolu.md"
+          }
+        ]
       },
       {
         "code": "05",
@@ -6756,11 +6825,34 @@
         "files": []
       }
     ],
-    "research_papers": [],
+    "research_papers": [
+      {
+        "title": "İnsansı Robotik, Bütünsel Vücut Kontrolü (WBC) ve Sıfır Moment Noktası (ZMP) Dinamiği",
+        "filename": "arastirma_insansi_robotik_ve_dinamik_denge_kontrolu.md",
+        "path": "meta_muhendislik/mekatronik_muhendisligi/04_Arastirma_ve_Bitirme/arastirma_insansi_robotik_ve_dinamik_denge_kontrolu.md",
+        "tier": "04"
+      }
+    ],
     "tokens": [
+      "(wbc)",
+      "(zmp)",
+      "arastirma",
+      "butunsel",
+      "denge",
+      "dinamigi",
+      "dinamik",
+      "insansi",
+      "kontrolu",
       "mekatronik",
       "meta_muhendislik",
+      "moment",
       "muhendisligi",
+      "noktasi",
+      "robotik",
+      "robotik,",
+      "sifir",
+      "ve",
+      "vucut",
       "🛠️ muhendislik & ileri teknoloji bilimleri"
     ]
   },
@@ -7433,22 +7525,31 @@
     ],
     "research_papers": [
       {
-        "title": "Post Kuantum Kriptografi Ve Sifir Guven",
+        "title": "Post-Kuantum Kriptografi (PQC), Sıfır Güven Mimarisi (Zero Trust) ve Çekirdek Güvenliği (eBPF)",
         "filename": "arastirma_post_kuantum_kriptografi_ve_sifir_guven.md",
         "path": "meta_muhendislik/siber_guvenlik_muhendisligi/04_Arastirma_ve_Bitirme/arastirma_post_kuantum_kriptografi_ve_sifir_guven.md",
         "tier": "04"
       }
     ],
     "tokens": [
+      "(ebpf)",
+      "(pqc),",
+      "(zero",
+      "arastirma",
+      "cekirdek",
       "guven",
+      "guvenligi",
       "guvenlik",
       "kriptografi",
       "kuantum",
       "meta_muhendislik",
+      "mimarisi",
       "muhendisligi",
       "post",
+      "post-kuantum",
       "siber",
       "sifir",
+      "trust)",
       "ve",
       "🛠️ muhendislik & ileri teknoloji bilimleri"
     ]
@@ -7920,19 +8021,27 @@
     ],
     "research_papers": [
       {
-        "title": "Modern Llm Mimarileri Ve Akil Yurutme",
+        "title": "Modern Büyük Dil Modelleri (LLM), Akıl Yürütme Mimarileri ve Otonom Ajan Sistemleri",
         "filename": "arastirma_modern_llm_mimarileri_ve_akil_yurutme.md",
         "path": "meta_muhendislik/yapay_zeka_ve_veri_muhendisligi/04_Arastirma_ve_Bitirme/arastirma_modern_llm_mimarileri_ve_akil_yurutme.md",
         "tier": "04"
       }
     ],
     "tokens": [
+      "(llm),",
+      "ajan",
       "akil",
+      "arastirma",
+      "buyuk",
+      "dil",
       "llm",
       "meta_muhendislik",
       "mimarileri",
+      "modelleri",
       "modern",
       "muhendisligi",
+      "otonom",
+      "sistemleri",
       "ve",
       "veri",
       "yapay",
@@ -9200,7 +9309,12 @@
         "dir": "04_Arastirma_ve_Bitirme",
         "label": "Araştırma ve Bitirme",
         "path": "mimarlik_ve_tasarim/mimarlik/04_Arastirma_ve_Bitirme",
-        "files": []
+        "files": [
+          {
+            "filename": "arastirma_hesaplamali_tasarim_ve_biyomimetik_mimari.md",
+            "path": "mimarlik_ve_tasarim/mimarlik/04_Arastirma_ve_Bitirme/arastirma_hesaplamali_tasarim_ve_biyomimetik_mimari.md"
+          }
+        ]
       },
       {
         "code": "05",
@@ -9217,10 +9331,27 @@
         "files": []
       }
     ],
-    "research_papers": [],
+    "research_papers": [
+      {
+        "title": "Hesaplamalı Tasarım (Computational Design), Topolojik Optimizasyon ve Biyomimetik Mimarlık",
+        "filename": "arastirma_hesaplamali_tasarim_ve_biyomimetik_mimari.md",
+        "path": "mimarlik_ve_tasarim/mimarlik/04_Arastirma_ve_Bitirme/arastirma_hesaplamali_tasarim_ve_biyomimetik_mimari.md",
+        "tier": "04"
+      }
+    ],
     "tokens": [
+      "(computational",
+      "arastirma",
+      "biyomimetik",
+      "design),",
+      "hesaplamali",
+      "mimari",
       "mimarlik",
       "mimarlik_ve_tasarim",
+      "optimizasyon",
+      "tasarim",
+      "topolojik",
+      "ve",
       "🏛️ mimarlik, tasarim & mekânsal sehircilik"
     ]
   },
@@ -16000,15 +16131,24 @@
     ],
     "research_papers": [
       {
-        "title": "Bci Sinyal Isleme Ve Noroteknoloji",
+        "title": "Beyin-Bilgisayar Arayüzleri (BCI): Nöral Kod Çözümleme, Elektrofizyoloji ve Nöromorfik Sinyal İşleme",
         "filename": "arastirma_bci_sinyal_isleme_ve_noroteknoloji.md",
         "path": "ozel_arastirma_alanlari/bci/04_Arastirma_ve_Bitirme/arastirma_bci_sinyal_isleme_ve_noroteknoloji.md",
         "tier": "04"
       }
     ],
     "tokens": [
+      "(bci):",
+      "arastirma",
+      "arayuzleri",
       "bci",
+      "beyin-bilgisayar",
+      "cozumleme,",
+      "elektrofizyoloji",
       "isleme",
+      "kod",
+      "noral",
+      "noromorfik",
       "noroteknoloji",
       "ozel_arastirma_alanlari",
       "sinyal",
@@ -16081,19 +16221,26 @@
     ],
     "research_papers": [
       {
-        "title": "Hucresel Yaslanma Ve Longevity Biyolojisi",
+        "title": "Hücresel Yaşlanma Biyolojisi, Epigenetik Saatler ve Longevity (Uzun Ömür) Tıbbı",
         "filename": "arastirma_hucresel_yaslanma_ve_longevity_biyolojisi.md",
         "path": "ozel_arastirma_alanlari/bio_hacking_ve_longevity/04_Arastirma_ve_Bitirme/arastirma_hucresel_yaslanma_ve_longevity_biyolojisi.md",
         "tier": "04"
       }
     ],
     "tokens": [
+      "(uzun",
+      "arastirma",
       "bio",
       "biyolojisi",
+      "biyolojisi,",
+      "epigenetik",
       "hacking",
       "hucresel",
       "longevity",
+      "omur)",
       "ozel_arastirma_alanlari",
+      "saatler",
+      "tibbi",
       "ve",
       "yaslanma",
       "🔬 ozel arastirma, fuzyon & sinir disiplinler"
@@ -16271,7 +16418,12 @@
         "dir": "04_Arastirma_ve_Bitirme",
         "label": "Araştırma ve Bitirme",
         "path": "ozel_arastirma_alanlari/blokzincir_ve_web3/04_Arastirma_ve_Bitirme",
-        "files": []
+        "files": [
+          {
+            "filename": "arastirma_sifir_bilgi_ispatlari_zk_snark_ve_rolluplar.md",
+            "path": "ozel_arastirma_alanlari/blokzincir_ve_web3/04_Arastirma_ve_Bitirme/arastirma_sifir_bilgi_ispatlari_zk_snark_ve_rolluplar.md"
+          }
+        ]
       },
       {
         "code": "05",
@@ -16288,12 +16440,33 @@
         "files": []
       }
     ],
-    "research_papers": [],
+    "research_papers": [
+      {
+        "title": "Sıfır Bilgi İspatları (zk-SNARKs & zk-STARKs), PLONK Mimarisi ve zk-Rollup Ölçeklemesi",
+        "filename": "arastirma_sifir_bilgi_ispatlari_zk_snark_ve_rolluplar.md",
+        "path": "ozel_arastirma_alanlari/blokzincir_ve_web3/04_Arastirma_ve_Bitirme/arastirma_sifir_bilgi_ispatlari_zk_snark_ve_rolluplar.md",
+        "tier": "04"
+      }
+    ],
     "tokens": [
+      "&",
+      "(zk-snarks",
+      "arastirma",
+      "bilgi",
       "blokzincir",
+      "ispatlari",
+      "mimarisi",
+      "olceklemesi",
       "ozel_arastirma_alanlari",
+      "plonk",
+      "rolluplar",
+      "sifir",
+      "snark",
       "ve",
       "web3",
+      "zk",
+      "zk-rollup",
+      "zk-starks),",
       "🔬 ozel arastirma, fuzyon & sinir disiplinler"
     ]
   },
@@ -16362,23 +16535,30 @@
     ],
     "research_papers": [
       {
-        "title": "Dogrudan Hava Yakalama Ve Temiz Enerji",
+        "title": "Doğrudan Hava Yakalama (DAC), Jeolojik Mineralizasyon ve Yeşil Hidrojen Termodinamiği",
         "filename": "arastirma_dogrudan_hava_yakalama_ve_temiz_enerji.md",
         "path": "ozel_arastirma_alanlari/climate_tech_ve_karbon_yakalama/04_Arastirma_ve_Bitirme/arastirma_dogrudan_hava_yakalama_ve_temiz_enerji.md",
         "tier": "04"
       }
     ],
     "tokens": [
+      "(dac),",
+      "arastirma",
       "climate",
       "dogrudan",
       "enerji",
       "hava",
+      "hidrojen",
+      "jeolojik",
       "karbon",
+      "mineralizasyon",
       "ozel_arastirma_alanlari",
       "tech",
       "temiz",
+      "termodinamigi",
       "ve",
       "yakalama",
+      "yesil",
       "🔬 ozel arastirma, fuzyon & sinir disiplinler"
     ]
   },
@@ -16917,19 +17097,25 @@
     ],
     "research_papers": [
       {
-        "title": "Kuantum Hesaplama Ve Kubit Mimarileri",
+        "title": "Kuantum Hesaplama, Süperiletken Kübit Mimarileri ve Kuantum Hata Düzeltme (QEC)",
         "filename": "arastirma_kuantum_hesaplama_ve_kubit_mimarileri.md",
         "path": "ozel_arastirma_alanlari/kuantum_muhendisligi/04_Arastirma_ve_Bitirme/arastirma_kuantum_hesaplama_ve_kubit_mimarileri.md",
         "tier": "04"
       }
     ],
     "tokens": [
+      "(qec)",
+      "arastirma",
+      "duzeltme",
+      "hata",
       "hesaplama",
+      "hesaplama,",
       "kuantum",
       "kubit",
       "mimarileri",
       "muhendisligi",
       "ozel_arastirma_alanlari",
+      "superiletken",
       "ve",
       "🔬 ozel arastirma, fuzyon & sinir disiplinler"
     ]
@@ -18175,7 +18361,12 @@
         "dir": "04_Arastirma_ve_Bitirme",
         "label": "Araştırma ve Bitirme",
         "path": "ozel_arastirma_alanlari/uzay_madenciligi_ve_lojistigi/04_Arastirma_ve_Bitirme",
-        "files": []
+        "files": [
+          {
+            "filename": "arastirma_asteroit_madenciligi_ve_in_situ_kaynak_kullanimi.md",
+            "path": "ozel_arastirma_alanlari/uzay_madenciligi_ve_lojistigi/04_Arastirma_ve_Bitirme/arastirma_asteroit_madenciligi_ve_in_situ_kaynak_kullanimi.md"
+          }
+        ]
       },
       {
         "code": "05",
@@ -18192,13 +18383,32 @@
         "files": []
       }
     ],
-    "research_papers": [],
+    "research_papers": [
+      {
+        "title": "Asteroit Madenciliği, Yerinde Kaynak Kullanımı (ISRU) ve Yörüngesel Yakıt Depoları",
+        "filename": "arastirma_asteroit_madenciligi_ve_in_situ_kaynak_kullanimi.md",
+        "path": "ozel_arastirma_alanlari/uzay_madenciligi_ve_lojistigi/04_Arastirma_ve_Bitirme/arastirma_asteroit_madenciligi_ve_in_situ_kaynak_kullanimi.md",
+        "tier": "04"
+      }
+    ],
     "tokens": [
+      "(isru)",
+      "arastirma",
+      "asteroit",
+      "depolari",
+      "in",
+      "kaynak",
+      "kullanimi",
       "lojistigi",
       "madenciligi",
+      "madenciligi,",
       "ozel_arastirma_alanlari",
+      "situ",
       "uzay",
       "ve",
+      "yakit",
+      "yerinde",
+      "yorungesel",
       "🔬 ozel arastirma, fuzyon & sinir disiplinler"
     ]
   },
@@ -20199,18 +20409,24 @@
     ],
     "research_papers": [
       {
-        "title": "Hassas Tip Ve Mrna Gen Tedavileri",
+        "title": "Hassas Tıp (Precision Medicine), CRISPR-Cas9 Gen Düzenleme ve mRNA Terapötikleri",
         "filename": "arastirma_hassas_tip_ve_mrna_gen_tedavileri.md",
         "path": "saglik/tip/04_Arastirma_ve_Bitirme/arastirma_hassas_tip_ve_mrna_gen_tedavileri.md",
         "tier": "04"
       }
     ],
     "tokens": [
+      "(precision",
+      "arastirma",
+      "crispr-cas9",
+      "duzenleme",
       "gen",
       "hassas",
+      "medicine),",
       "mrna",
       "saglik",
       "tedavileri",
+      "terapotikleri",
       "tip",
       "ve",
       "🩺 saglik bilimleri, klinik tip & yasam"
@@ -21047,7 +21263,12 @@
         "dir": "04_Arastirma_ve_Bitirme",
         "label": "Araştırma ve Bitirme",
         "path": "sosyal_ve_beseri_bilimler/felsefe/04_Arastirma_ve_Bitirme",
-        "files": []
+        "files": [
+          {
+            "filename": "arastirma_bilinc_felsefesi_ve_agi_ontolojisi.md",
+            "path": "sosyal_ve_beseri_bilimler/felsefe/04_Arastirma_ve_Bitirme/arastirma_bilinc_felsefesi_ve_agi_ontolojisi.md"
+          }
+        ]
       },
       {
         "code": "05",
@@ -21064,10 +21285,32 @@
         "files": []
       }
     ],
-    "research_papers": [],
+    "research_papers": [
+      {
+        "title": "Bilinç Felsefesi, Entegre Bilgi Teorisi (IIT) ve Yapay Genel Zeka (AGI) Ontolojisi",
+        "filename": "arastirma_bilinc_felsefesi_ve_agi_ontolojisi.md",
+        "path": "sosyal_ve_beseri_bilimler/felsefe/04_Arastirma_ve_Bitirme/arastirma_bilinc_felsefesi_ve_agi_ontolojisi.md",
+        "tier": "04"
+      }
+    ],
     "tokens": [
+      "(agi)",
+      "(iit)",
+      "agi",
+      "arastirma",
+      "bilgi",
+      "bilinc",
+      "entegre",
       "felsefe",
+      "felsefesi",
+      "felsefesi,",
+      "genel",
+      "ontolojisi",
       "sosyal_ve_beseri_bilimler",
+      "teorisi",
+      "ve",
+      "yapay",
+      "zeka",
       "⚖️ sosyal, beseri, idari & davranissal bilimler"
     ]
   },
@@ -21398,19 +21641,27 @@
     ],
     "research_papers": [
       {
-        "title": "Makroekonomik Kaldirac Ve Merkez Bankaciligi",
+        "title": "Makroekonomik Kaldıraç, Likidite Tuzakları ve Dijital Merkez Bankası Paraları (CBDC)",
         "filename": "arastirma_makroekonomik_kaldirac_ve_merkez_bankaciligi.md",
         "path": "sosyal_ve_beseri_bilimler/iktisat/04_Arastirma_ve_Bitirme/arastirma_makroekonomik_kaldirac_ve_merkez_bankaciligi.md",
         "tier": "04"
       }
     ],
     "tokens": [
+      "(cbdc)",
+      "arastirma",
       "bankaciligi",
+      "bankasi",
+      "dijital",
       "iktisat",
       "kaldirac",
+      "kaldirac,",
+      "likidite",
       "makroekonomik",
       "merkez",
+      "paralari",
       "sosyal_ve_beseri_bilimler",
+      "tuzaklari",
       "ve",
       "⚖️ sosyal, beseri, idari & davranissal bilimler"
     ]
@@ -24346,15 +24597,23 @@
     ],
     "research_papers": [
       {
-        "title": "Standart Model Ve Sicim Teorisi Ufuklari",
+        "title": "Parçacık Fiziği Standart Modeli, Ayar Alanları ve Kuantum Kütleçekimi Ufukları",
         "filename": "arastirma_standart_model_ve_sicim_teorisi_ufuklari.md",
         "path": "temel_bilimler/fizik/04_Arastirma_ve_Bitirme/arastirma_standart_model_ve_sicim_teorisi_ufuklari.md",
         "tier": "04"
       }
     ],
     "tokens": [
+      "alanlari",
+      "arastirma",
+      "ayar",
+      "fizigi",
       "fizik",
+      "kuantum",
+      "kutlecekimi",
       "model",
+      "modeli,",
+      "parcacik",
       "sicim",
       "standart",
       "temel_bilimler",
@@ -24600,7 +24859,12 @@
         "dir": "04_Arastirma_ve_Bitirme",
         "label": "Araştırma ve Bitirme",
         "path": "temel_bilimler/matematik/04_Arastirma_ve_Bitirme",
-        "files": []
+        "files": [
+          {
+            "filename": "arastirma_kategori_teorisi_ve_formal_ispat_sistemleri.md",
+            "path": "temel_bilimler/matematik/04_Arastirma_ve_Bitirme/arastirma_kategori_teorisi_ve_formal_ispat_sistemleri.md"
+          }
+        ]
       },
       {
         "code": "05",
@@ -24617,10 +24881,33 @@
         "files": []
       }
     ],
-    "research_papers": [],
+    "research_papers": [
+      {
+        "title": "Kategori Teorisi, Homotopi Tip Teorisi (HoTT) ve Lean 4 ile Biçimsel İspat Mimarisi",
+        "filename": "arastirma_kategori_teorisi_ve_formal_ispat_sistemleri.md",
+        "path": "temel_bilimler/matematik/04_Arastirma_ve_Bitirme/arastirma_kategori_teorisi_ve_formal_ispat_sistemleri.md",
+        "tier": "04"
+      }
+    ],
     "tokens": [
+      "(hott)",
+      "4",
+      "arastirma",
+      "bicimsel",
+      "formal",
+      "homotopi",
+      "ile",
+      "ispat",
+      "kategori",
+      "lean",
       "matematik",
+      "mimarisi",
+      "sistemleri",
       "temel_bilimler",
+      "teorisi",
+      "teorisi,",
+      "tip",
+      "ve",
       "🧪 temel fen bilimleri (fizik, kimya, matematik)"
     ]
   },

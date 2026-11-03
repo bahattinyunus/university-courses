@@ -55,11 +55,12 @@ def generate_encyclopedic_readme():
 # 🌌 UNIVERSITY COURSES (UC)
 ### *Evrensel Akademik İşletim Sistemi & Solopreneur Bilgi Mimarisi* 🌐🧬🏗️
 
-[![Versiyon](https://img.shields.io/badge/%C3%87EK%C4%B0RDEK-v4.5--ULTIMATE-00A9E0?style=for-the-badge&logo=target)](./)
+[![Versiyon](https://img.shields.io/badge/%C3%87EK%C4%B0RDEK-v4.6--RESEARCH-00A9E0?style=for-the-badge&logo=target)](./)
 [![Mimar](https://img.shields.io/badge/M%C4%B0MAR-Yunus_%C3%87etin-D4AF37?style=for-the-badge&logo=codeforces&logoColor=white)](https://github.com/arch-yunus)
 [![Repo](https://img.shields.io/badge/REPO-university--courses-black?style=for-the-badge&logo=github)](https://github.com/bahattinyunus/university-courses)
 [![Kapsam](https://img.shields.io/badge/KAPSAM-{total_depts}_Disiplin-18453B?style=for-the-badge&logo=rocket)](./SUMMARY.md)
 [![Kademeler](https://img.shields.io/badge/KADEMELER-{total_tiers}_Mod%C3%BCl-6f42c1?style=for-the-badge&logo=diagram)](./SUMMARY.md)
+[![Monograflar](https://img.shields.io/badge/MONOGRAFLAR-20_Derin_Arastirma-ff69b4?style=for-the-badge&logo=googlescholar&logoColor=white)](./assets/curriculum_index.json)
 
 ---
 
@@ -326,7 +327,7 @@ Bu kütüphanedeki verimi en üst düzeye çıkarmak için kanıtlanmış biliş
 - [x] **Faz 2:** Universal Discipline Matrix ({total_depts} Akademik Alan / {total_tiers} Kademe) entegrasyonu.
 - [x] **Faz 3:** CI/CD otomatik repo bütünlüğü ve indeks doğrulama test hattı.
 - [x] **Faz 4:** Polimatik zihinsel modeller, düşünürler panteonu ve felsefi aksiyomların mimariye kazandırılması.
-- [x] **Faz 5:** İnteraktif navigasyon araçları ve arama indeksleyicileri (`scripts/search_curriculum.py` ve `assets/curriculum_index.json`).
+- [x] **Faz 5:** İnteraktif CLI arama motoru ve 20 derin akademik araştırma monografı (`scripts/search_curriculum.py` & `assets/curriculum_index.json`).
 - [ ] **Faz 6:** Uluslararası çok dilli akademik genişleme.
 
 ---
