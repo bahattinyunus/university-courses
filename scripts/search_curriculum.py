@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
-University Courses (UC) - Evrensel Akademik Arama ve Müfredat İndeksleyici
-Bu araç 21 konteyner, 374 akademik disiplin ve 2618 kademeyi anında tarar, arar ve indeksler.
+University Courses (UC) - Evrensel Akademik Arama, İnceleme ve Müfredat İndeksleyici
+Bu araç 21 konteyner, 374 akademik disiplin, 2618 kademe ve 30 ileri araştırma monografını tarar, arar ve inceler.
 """
 
 import os
@@ -209,6 +209,17 @@ def search_curriculum(query: str, container_filter: str = None, limit: int = 20)
     results.sort(key=lambda x: x[0], reverse=True)
     return [r[1] for r in results[:limit]]
 
+def get_all_research_papers():
+    """Tüm depodaki araştırma monograflarını sıralı liste olarak döndürür."""
+    index = load_index()
+    all_papers = []
+    for item in index:
+        for rp in item.get("research_papers", []):
+            all_papers.append((item, rp))
+    # Sort deterministically by container then title
+    all_papers.sort(key=lambda x: (x[0]['container'], x[1]['title']))
+    return all_papers
+
 def print_results(results: list, query: str):
     print("=" * 70)
     print(f" 🔍 ARAMA SONUÇLARI: '{query}' ({len(results)} Eşleşme)")
@@ -234,12 +245,7 @@ def print_results(results: list, query: str):
 
 def list_all_research_papers():
     """Tüm depodaki ileri seviye araştırma monograflarını listeler."""
-    index = load_index()
-    all_papers = []
-    for item in index:
-        for rp in item.get("research_papers", []):
-            all_papers.append((item, rp))
-            
+    all_papers = get_all_research_papers()
     print("=" * 75)
     print(f" 📚 UAOS İLERİ AKADEMİK VE TEKNOLOJİK ARAŞTIRMA MONOGRAFLARI ({len(all_papers)} Eser)")
     print("=" * 75)
@@ -248,21 +254,170 @@ def list_all_research_papers():
         print(f"     Disiplin : {item['name']} ({item['container_title']})")
         print(f"     Dosya    : ./{rp['path']}")
     print("=" * 75)
+    print(" 💡 İpucu: Monograf içeriğini doğrudan okumak için: python scripts/search_curriculum.py --read <NO>")
+    print("=" * 75)
+
+def print_statistics():
+    """Depo genelindeki istatistikleri ve konteyner dağılımını gösterir."""
+    index = load_index()
+    all_papers = get_all_research_papers()
+    
+    total_depts = len(index)
+    total_tiers = sum(item.get("tier_count", 0) for item in index)
+    total_papers = len(all_papers)
+    
+    container_stats = {}
+    for item in index:
+        c_key = item['container']
+        if c_key not in container_stats:
+            container_stats[c_key] = {
+                "title": item['container_title'],
+                "depts": 0,
+                "tiers": 0,
+                "papers": 0
+            }
+        container_stats[c_key]["depts"] += 1
+        container_stats[c_key]["tiers"] += item.get("tier_count", 0)
+        container_stats[c_key]["papers"] += len(item.get("research_papers", []))
+
+    print("=" * 78)
+    print(" 📊 UNIVERSITY COURSES (UAOS) - EVRENSEL DİSİPLİN MATRİS İSTATİSTİKLERİ")
+    print("=" * 78)
+    print(f"  🏛️ Toplam Konteyner Sayısı         : {len(container_stats)} Tematik Fakülte & Küme")
+    print(f"  🎓 Toplam Akademik Disiplin       : {total_depts} Alan")
+    print(f"  📦 Toplam Yapılandırılmış Kademe   : {total_tiers} Modüler Kademe (00-06)")
+    print(f"  🔬 İleri Araştırma Monografları    : {total_papers} Derin Bilimsel Monograf")
+    print("=" * 78)
+    print(f" {'#':<3} {'KONTEYNER / FAKÜLTE':<45} {'ALAN':<8} {'MONOGRAF':<9}")
+    print("-" * 78)
+    for idx, (c_key, s) in enumerate(sorted(container_stats.items(), key=lambda x: x[1]['depts'], reverse=True), 1):
+        clean_title = s['title']
+        if len(clean_title) > 42:
+            clean_title = clean_title[:39] + "..."
+        print(f" {idx:<3} {clean_title:<45} {s['depts']:<8} {s['papers']:<9}")
+    print("=" * 78)
+
+def print_discipline_tree(query: str):
+    """Bir disiplinin kademe ve dosya ağacını ASCII formatında terminale yazdırır."""
+    results = search_curriculum(query, limit=1)
+    if not results:
+        print(f"[!] '{query}' ile eşleşen bir disiplin bulunamadı.")
+        return
+
+    item = results[0]
+    dept_full_path = os.path.join(ROOT_DIR, item['path'])
+
+    print("=" * 75)
+    print(f" 🌳 AKADEMİK DİSİPLİN AĞACI: {item['name']}")
+    print(f"    Konteyner: {item['container_title']}")
+    print(f"    Konum    : ./{item['path']}/")
+    print("=" * 75)
+    print(f"└── {item['slug']}/")
+
+    if not os.path.isdir(dept_full_path):
+        print("    [!] Dizin bulunamadı.")
+        return
+
+    subdirs = sorted([d for d in os.listdir(dept_full_path) if os.path.isdir(os.path.join(dept_full_path, d))])
+    for s_idx, s_dir in enumerate(subdirs):
+        is_last_s = (s_idx == len(subdirs) - 1)
+        s_pref = "    └── " if is_last_s else "    ├── "
+        c_pref = "        " if is_last_s else "    │   "
+        
+        # Check tier label
+        t_code = s_dir[:2]
+        label = TIER_NAMES.get(t_code, s_dir)
+        print(f"{s_pref}{s_dir}/ ({label})")
+
+        subpath = os.path.join(dept_full_path, s_dir)
+        files = sorted([f for f in os.listdir(subpath) if os.path.isfile(os.path.join(subpath, f)) and not f.startswith('.')])
+        for f_idx, fn in enumerate(files):
+            is_last_f = (f_idx == len(files) - 1)
+            f_pref = c_pref + ("└── " if is_last_f else "├── ")
+            icon = "📑 [MONOGRAF]" if fn.startswith("arastirma_") else "📄"
+            print(f"{f_pref}{icon} {fn}")
+    print("=" * 75)
+
+def read_research_paper(target: str):
+    """Numara veya başlık ile seçilen araştırma monografını terminalde görüntüler."""
+    all_papers = get_all_research_papers()
+    selected_paper = None
+    selected_dept = None
+
+    if target.isdigit():
+        num = int(target)
+        if 1 <= num <= len(all_papers):
+            selected_dept, selected_paper = all_papers[num - 1]
+        else:
+            print(f"[!] Geçersiz monograf numarası: {num}. Geçerli aralık: 1-{len(all_papers)}")
+            return
+    else:
+        norm_t = normalize_text(target)
+        for dept, paper in all_papers:
+            if norm_t in normalize_text(paper['title']) or norm_t in normalize_text(paper['filename']):
+                selected_dept, selected_paper = dept, paper
+                break
+
+    if not selected_paper:
+        print(f"[!] '{target}' ile eşleşen bir araştırma monografı bulunamadı.")
+        return
+
+    full_path = os.path.join(ROOT_DIR, selected_paper['path'])
+    if not os.path.isfile(full_path):
+        print(f"[!] Dosya bulunamadı: {full_path}")
+        return
+
+    print("\n" + "=" * 80)
+    print(f" 📖 MONOGRAF OKUYUCU: {selected_paper['title']}")
+    print(f" 🏛️ Disiplin : {selected_dept['name']} ({selected_dept['container_title']})")
+    print(f" 📂 Konum    : ./{selected_paper['path']}")
+    print("=" * 80 + "\n")
+
+    try:
+        with open(full_path, 'r', encoding='utf-8') as f:
+            content = f.read()
+        print(content)
+        print("\n" + "=" * 80)
+        print(" [SON] Monograf sonuna ulaşıldı.")
+        print("=" * 80 + "\n")
+    except Exception as e:
+        print(f"[!] Dosya okunurken hata oluştu: {e}")
 
 def interactive_mode():
     print("=" * 70)
-    print(" 🌌 UAOS INTERAKTIF MÜFREDAT VE DİSİPLİN ARAMA TERMINALI")
-    print(" Çıkmak için 'q' veya 'exit' yazın.")
+    print(" 🌌 UAOS INTERAKTİF MÜFREDAT VE DİSİPLİN ARAMA TERMİNALİ")
+    print(" Komutlar:")
+    print("   :stats, :s       - Depo istatistiklerini görüntüle")
+    print("   :research, :r    - Tüm 30 araştırma monografını listele")
+    print("   :read <NO>       - Belirtilen numaralı monografı oku")
+    print("   :tree <disiplin> - Disiplinin kademe ve dosya ağacını göster")
+    print("   :quit, :q        - Çıkış yap")
+    print("   <arama terimi>   - Disiplin veya kavram ara")
     print("=" * 70)
     
     while True:
         try:
-            query = input("\n🔎 Aramak istediğiniz kavram veya alan: ").strip()
-            if query.lower() in ('q', 'exit', 'quit'):
-                print("Görüşmek üzere!")
-                break
+            query = input("\n🔎 Aramak istediğiniz kavram veya komut: ").strip()
             if not query:
                 continue
+            if query.lower() in (':q', ':quit', 'q', 'exit', 'quit'):
+                print("Görüşmek üzere!")
+                break
+            if query.lower() in (':s', ':stats'):
+                print_statistics()
+                continue
+            if query.lower() in (':r', ':research'):
+                list_all_research_papers()
+                continue
+            if query.startswith((':read ', ':o ')):
+                arg = query.split(maxsplit=1)[1]
+                read_research_paper(arg)
+                continue
+            if query.startswith((':tree ', ':t ')):
+                arg = query.split(maxsplit=1)[1]
+                print_discipline_tree(arg)
+                continue
+
             results = search_curriculum(query)
             print_results(results, query)
         except (KeyboardInterrupt, EOFError):
@@ -278,11 +433,26 @@ def main():
     parser.add_argument("--limit", "-l", type=int, default=15, help="Maksimum sonuç sayısı")
     parser.add_argument("--json", action="store_true", help="Sonuçları JSON formatında çıktı ver")
     parser.add_argument("--research", "-r", action="store_true", help="Tüm ileri araştırma monograflarını listele")
+    parser.add_argument("--stats", "-s", action="store_true", help="Depo genelindeki istatistikleri ve dağılımı göster")
+    parser.add_argument("--tree", "-t", help="Belirtilen disiplinin ağaç yapısını göster")
+    parser.add_argument("--read", "-o", help="Numara veya başlık ile araştırma monografını oku")
 
     args = parser.parse_args()
 
+    if args.stats:
+        print_statistics()
+        return
+
     if args.research:
         list_all_research_papers()
+        return
+
+    if args.read:
+        read_research_paper(args.read)
+        return
+
+    if args.tree:
+        print_discipline_tree(args.tree)
         return
 
     if args.build_index:

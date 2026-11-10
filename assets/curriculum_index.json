@@ -4576,7 +4576,12 @@
         "dir": "04_Arastirma_ve_Bitirme",
         "label": "Araştırma ve Bitirme",
         "path": "meta_muhendislik/biyomedikal_muhendisligi/04_Arastirma_ve_Bitirme",
-        "files": []
+        "files": [
+          {
+            "filename": "arastirma_organ_on_a_chip_ve_biyo_hibrit_implantlar.md",
+            "path": "meta_muhendislik/biyomedikal_muhendisligi/04_Arastirma_ve_Bitirme/arastirma_organ_on_a_chip_ve_biyo_hibrit_implantlar.md"
+          }
+        ]
       },
       {
         "code": "05",
@@ -4593,11 +4598,33 @@
         "files": []
       }
     ],
-    "research_papers": [],
+    "research_papers": [
+      {
+        "title": "Organ-on-a-Chip Teknolojileri, Mikroakışkan Doku Mühendisliği ve Biyo-Uyumlu Nöral İmplantlar",
+        "filename": "arastirma_organ_on_a_chip_ve_biyo_hibrit_implantlar.md",
+        "path": "meta_muhendislik/biyomedikal_muhendisligi/04_Arastirma_ve_Bitirme/arastirma_organ_on_a_chip_ve_biyo_hibrit_implantlar.md",
+        "tier": "04"
+      }
+    ],
     "tokens": [
+      "a",
+      "arastirma",
+      "biyo",
+      "biyo-uyumlu",
       "biyomedikal",
+      "chip",
+      "doku",
+      "hibrit",
+      "implantlar",
       "meta_muhendislik",
+      "mikroakiskan",
       "muhendisligi",
+      "noral",
+      "on",
+      "organ",
+      "organ-on-a-chip",
+      "teknolojileri,",
+      "ve",
       "🛠️ muhendislik & ileri teknoloji bilimleri"
     ]
   },
@@ -6537,7 +6564,12 @@
         "dir": "04_Arastirma_ve_Bitirme",
         "label": "Araştırma ve Bitirme",
         "path": "meta_muhendislik/kontrol_ve_otomasyon_muhendisligi/04_Arastirma_ve_Bitirme",
-        "files": []
+        "files": [
+          {
+            "filename": "arastirma_otonom_suru_robotigi_ve_slam_navigasyonu.md",
+            "path": "meta_muhendislik/kontrol_ve_otomasyon_muhendisligi/04_Arastirma_ve_Bitirme/arastirma_otonom_suru_robotigi_ve_slam_navigasyonu.md"
+          }
+        ]
       },
       {
         "code": "05",
@@ -6554,13 +6586,31 @@
         "files": []
       }
     ],
-    "research_papers": [],
+    "research_papers": [
+      {
+        "title": "Otonom Sürü Robotiği, Dağıtık Konsensüs ve Gerçek Zamanlı SLAM Navigasyonu",
+        "filename": "arastirma_otonom_suru_robotigi_ve_slam_navigasyonu.md",
+        "path": "meta_muhendislik/kontrol_ve_otomasyon_muhendisligi/04_Arastirma_ve_Bitirme/arastirma_otonom_suru_robotigi_ve_slam_navigasyonu.md",
+        "tier": "04"
+      }
+    ],
     "tokens": [
+      "arastirma",
+      "dagitik",
+      "gercek",
+      "konsensus",
       "kontrol",
       "meta_muhendislik",
       "muhendisligi",
+      "navigasyonu",
       "otomasyon",
+      "otonom",
+      "robotigi",
+      "robotigi,",
+      "slam",
+      "suru",
       "ve",
+      "zamanli",
       "🛠️ muhendislik & ileri teknoloji bilimleri"
     ]
   },
@@ -7167,7 +7217,12 @@
         "dir": "04_Arastirma_ve_Bitirme",
         "label": "Araştırma ve Bitirme",
         "path": "meta_muhendislik/nukleer_enerji_muhendisligi/04_Arastirma_ve_Bitirme",
-        "files": []
+        "files": [
+          {
+            "filename": "arastirma_manyetik_sinirlamali_fuzyon_ve_tokamak_termodinamigi.md",
+            "path": "meta_muhendislik/nukleer_enerji_muhendisligi/04_Arastirma_ve_Bitirme/arastirma_manyetik_sinirlamali_fuzyon_ve_tokamak_termodinamigi.md"
+          }
+        ]
       },
       {
         "code": "05",
@@ -7184,12 +7239,33 @@
         "files": []
       }
     ],
-    "research_papers": [],
+    "research_papers": [
+      {
+        "title": "Manyetik Sınırlamalı Nükleer Füzyon, Tokamak & Stellarator Plazma Dinamiği ve Lawson Kriteri",
+        "filename": "arastirma_manyetik_sinirlamali_fuzyon_ve_tokamak_termodinamigi.md",
+        "path": "meta_muhendislik/nukleer_enerji_muhendisligi/04_Arastirma_ve_Bitirme/arastirma_manyetik_sinirlamali_fuzyon_ve_tokamak_termodinamigi.md",
+        "tier": "04"
+      }
+    ],
     "tokens": [
+      "&",
+      "arastirma",
+      "dinamigi",
       "enerji",
+      "fuzyon",
+      "fuzyon,",
+      "kriteri",
+      "lawson",
+      "manyetik",
       "meta_muhendislik",
       "muhendisligi",
       "nukleer",
+      "plazma",
+      "sinirlamali",
+      "stellarator",
+      "termodinamigi",
+      "tokamak",
+      "ve",
       "🛠️ muhendislik & ileri teknoloji bilimleri"
     ]
   },
@@ -8091,7 +8167,12 @@
         "dir": "04_Arastirma_ve_Bitirme",
         "label": "Araştırma ve Bitirme",
         "path": "meta_muhendislik/yazilim_muhendisligi/04_Arastirma_ve_Bitirme",
-        "files": []
+        "files": [
+          {
+            "filename": "arastirma_formal_dogrulama_ve_guvenilir_sistem_mimarisi.md",
+            "path": "meta_muhendislik/yazilim_muhendisligi/04_Arastirma_ve_Bitirme/arastirma_formal_dogrulama_ve_guvenilir_sistem_mimarisi.md"
+          }
+        ]
       },
       {
         "code": "05",
@@ -8108,10 +8189,32 @@
         "files": []
       }
     ],
-    "research_papers": [],
+    "research_papers": [
+      {
+        "title": "Formal Doğrulama (Formal Verification), TLA+, Model Checking ve Görev-Kritik Dağıtık Yazılım Güvenilirliği",
+        "filename": "arastirma_formal_dogrulama_ve_guvenilir_sistem_mimarisi.md",
+        "path": "meta_muhendislik/yazilim_muhendisligi/04_Arastirma_ve_Bitirme/arastirma_formal_dogrulama_ve_guvenilir_sistem_mimarisi.md",
+        "tier": "04"
+      }
+    ],
     "tokens": [
+      "(formal",
+      "arastirma",
+      "checking",
+      "dagitik",
+      "dogrulama",
+      "formal",
+      "gorev-kritik",
+      "guvenilir",
+      "guvenilirligi",
       "meta_muhendislik",
+      "mimarisi",
+      "model",
       "muhendisligi",
+      "sistem",
+      "tla+,",
+      "ve",
+      "verification),",
       "yazilim",
       "🛠️ muhendislik & ileri teknoloji bilimleri"
     ]
@@ -16287,7 +16390,12 @@
         "dir": "04_Arastirma_ve_Bitirme",
         "label": "Araştırma ve Bitirme",
         "path": "ozel_arastirma_alanlari/biyoinformatik/04_Arastirma_ve_Bitirme",
-        "files": []
+        "files": [
+          {
+            "filename": "arastirma_sentetik_genomik_ve_metabolik_muhendislik.md",
+            "path": "ozel_arastirma_alanlari/biyoinformatik/04_Arastirma_ve_Bitirme/arastirma_sentetik_genomik_ve_metabolik_muhendislik.md"
+          }
+        ]
       },
       {
         "code": "05",
@@ -16304,10 +16412,30 @@
         "files": []
       }
     ],
-    "research_papers": [],
+    "research_papers": [
+      {
+        "title": "Sentetik Genomik, Minimal Hücre Tasarımı ve Genetik Devre Mühendisliği",
+        "filename": "arastirma_sentetik_genomik_ve_metabolik_muhendislik.md",
+        "path": "ozel_arastirma_alanlari/biyoinformatik/04_Arastirma_ve_Bitirme/arastirma_sentetik_genomik_ve_metabolik_muhendislik.md",
+        "tier": "04"
+      }
+    ],
     "tokens": [
+      "arastirma",
       "biyoinformatik",
+      "devre",
+      "genetik",
+      "genomik",
+      "genomik,",
+      "hucre",
+      "metabolik",
+      "minimal",
+      "muhendisligi",
+      "muhendislik",
       "ozel_arastirma_alanlari",
+      "sentetik",
+      "tasarimi",
+      "ve",
       "🔬 ozel arastirma, fuzyon & sinir disiplinler"
     ]
   },
@@ -16736,7 +16864,12 @@
         "dir": "04_Arastirma_ve_Bitirme",
         "label": "Araştırma ve Bitirme",
         "path": "ozel_arastirma_alanlari/fintek_ai/04_Arastirma_ve_Bitirme",
-        "files": []
+        "files": [
+          {
+            "filename": "arastirma_algoritmik_piyasa_yapiciligi_ve_yuksek_frekansli_hft.md",
+            "path": "ozel_arastirma_alanlari/fintek_ai/04_Arastirma_ve_Bitirme/arastirma_algoritmik_piyasa_yapiciligi_ve_yuksek_frekansli_hft.md"
+          }
+        ]
       },
       {
         "code": "05",
@@ -16753,11 +16886,34 @@
         "files": []
       }
     ],
-    "research_papers": [],
+    "research_papers": [
+      {
+        "title": "Algoritmik Piyasa Yapıcılığı (Market Making), Limit Emir Defteri Dinamiği ve Yüksek Frekanslı İşlemler (HFT)",
+        "filename": "arastirma_algoritmik_piyasa_yapiciligi_ve_yuksek_frekansli_hft.md",
+        "path": "ozel_arastirma_alanlari/fintek_ai/04_Arastirma_ve_Bitirme/arastirma_algoritmik_piyasa_yapiciligi_ve_yuksek_frekansli_hft.md",
+        "tier": "04"
+      }
+    ],
     "tokens": [
+      "(hft)",
+      "(market",
       "ai",
+      "algoritmik",
+      "arastirma",
+      "defteri",
+      "dinamigi",
+      "emir",
       "fintek",
+      "frekansli",
+      "hft",
+      "islemler",
+      "limit",
+      "making),",
       "ozel_arastirma_alanlari",
+      "piyasa",
+      "ve",
+      "yapiciligi",
+      "yuksek",
       "🔬 ozel arastirma, fuzyon & sinir disiplinler"
     ]
   },
@@ -22239,7 +22395,12 @@
         "dir": "04_Arastirma_ve_Bitirme",
         "label": "Araştırma ve Bitirme",
         "path": "sosyal_ve_beseri_bilimler/psikoloji/04_Arastirma_ve_Bitirme",
-        "files": []
+        "files": [
+          {
+            "filename": "arastirma_bilissel_mimari_ve_davranissal_karar_kurami.md",
+            "path": "sosyal_ve_beseri_bilimler/psikoloji/04_Arastirma_ve_Bitirme/arastirma_bilissel_mimari_ve_davranissal_karar_kurami.md"
+          }
+        ]
       },
       {
         "code": "05",
@@ -22256,10 +22417,34 @@
         "files": []
       }
     ],
-    "research_papers": [],
+    "research_papers": [
+      {
+        "title": "Bilişsel Mimari (ACT-R & SOAR), Bayesyen Beyin Hipotezi ve Beklenti Teorisi (Prospect Theory)",
+        "filename": "arastirma_bilissel_mimari_ve_davranissal_karar_kurami.md",
+        "path": "sosyal_ve_beseri_bilimler/psikoloji/04_Arastirma_ve_Bitirme/arastirma_bilissel_mimari_ve_davranissal_karar_kurami.md",
+        "tier": "04"
+      }
+    ],
     "tokens": [
+      "&",
+      "(act-r",
+      "(prospect",
+      "arastirma",
+      "bayesyen",
+      "beklenti",
+      "beyin",
+      "bilissel",
+      "davranissal",
+      "hipotezi",
+      "karar",
+      "kurami",
+      "mimari",
       "psikoloji",
+      "soar),",
       "sosyal_ve_beseri_bilimler",
+      "teorisi",
+      "theory)",
+      "ve",
       "⚖️ sosyal, beseri, idari & davranissal bilimler"
     ]
   },
@@ -24241,7 +24426,12 @@
         "dir": "04_Arastirma_ve_Bitirme",
         "label": "Araştırma ve Bitirme",
         "path": "temel_bilimler/astronomi_ve_uzay_bilimleri/04_Arastirma_ve_Bitirme",
-        "files": []
+        "files": [
+          {
+            "filename": "arastirma_yercekimsel_dalga_astronomisi_ve_karadelik_termodinamigi.md",
+            "path": "temel_bilimler/astronomi_ve_uzay_bilimleri/04_Arastirma_ve_Bitirme/arastirma_yercekimsel_dalga_astronomisi_ve_karadelik_termodinamigi.md"
+          }
+        ]
       },
       {
         "code": "05",
@@ -24258,13 +24448,29 @@
         "files": []
       }
     ],
-    "research_papers": [],
+    "research_papers": [
+      {
+        "title": "Yerçekimsel Dalga Astronomisi, LIGO İnterferometrisi ve Karadelik Termodinamiği",
+        "filename": "arastirma_yercekimsel_dalga_astronomisi_ve_karadelik_termodinamigi.md",
+        "path": "temel_bilimler/astronomi_ve_uzay_bilimleri/04_Arastirma_ve_Bitirme/arastirma_yercekimsel_dalga_astronomisi_ve_karadelik_termodinamigi.md",
+        "tier": "04"
+      }
+    ],
     "tokens": [
+      "arastirma",
       "astronomi",
+      "astronomisi",
+      "astronomisi,",
       "bilimleri",
+      "dalga",
+      "interferometrisi",
+      "karadelik",
+      "ligo",
       "temel_bilimler",
+      "termodinamigi",
       "uzay",
       "ve",
+      "yercekimsel",
       "🧪 temel fen bilimleri (fizik, kimya, matematik)"
     ]
   },
@@ -24374,7 +24580,12 @@
         "dir": "04_Arastirma_ve_Bitirme",
         "label": "Araştırma ve Bitirme",
         "path": "temel_bilimler/biyoloji/04_Arastirma_ve_Bitirme",
-        "files": []
+        "files": [
+          {
+            "filename": "arastirma_protein_katlanmasi_alphafold_ve_yapisal_biyoloji.md",
+            "path": "temel_bilimler/biyoloji/04_Arastirma_ve_Bitirme/arastirma_protein_katlanmasi_alphafold_ve_yapisal_biyoloji.md"
+          }
+        ]
       },
       {
         "code": "05",
@@ -24391,10 +24602,31 @@
         "files": []
       }
     ],
-    "research_papers": [],
+    "research_papers": [
+      {
+        "title": "Hesaplamalı Yapısal Biyoloji, De Novo Protein Tasarımı ve Geometrik Derin Öğrenme",
+        "filename": "arastirma_protein_katlanmasi_alphafold_ve_yapisal_biyoloji.md",
+        "path": "temel_bilimler/biyoloji/04_Arastirma_ve_Bitirme/arastirma_protein_katlanmasi_alphafold_ve_yapisal_biyoloji.md",
+        "tier": "04"
+      }
+    ],
     "tokens": [
+      "alphafold",
+      "arastirma",
       "biyoloji",
+      "biyoloji,",
+      "de",
+      "derin",
+      "geometrik",
+      "hesaplamali",
+      "katlanmasi",
+      "novo",
+      "ogrenme",
+      "protein",
+      "tasarimi",
       "temel_bilimler",
+      "ve",
+      "yapisal",
       "🧪 temel fen bilimleri (fizik, kimya, matematik)"
     ]
   },
@@ -24794,7 +25026,12 @@
         "dir": "04_Arastirma_ve_Bitirme",
         "label": "Araştırma ve Bitirme",
         "path": "temel_bilimler/kimya/04_Arastirma_ve_Bitirme",
-        "files": []
+        "files": [
+          {
+            "filename": "arastirma_kuantum_kimyasi_ve_dft_molekuler_dinamik.md",
+            "path": "temel_bilimler/kimya/04_Arastirma_ve_Bitirme/arastirma_kuantum_kimyasi_ve_dft_molekuler_dinamik.md"
+          }
+        ]
       },
       {
         "code": "05",
@@ -24811,10 +25048,31 @@
         "files": []
       }
     ],
-    "research_papers": [],
+    "research_papers": [
+      {
+        "title": "Kuantum Kimyası, Yoğunluk Fonksiyoneli Teorisi (DFT) ve Ab Initio Moleküler Dinamik",
+        "filename": "arastirma_kuantum_kimyasi_ve_dft_molekuler_dinamik.md",
+        "path": "temel_bilimler/kimya/04_Arastirma_ve_Bitirme/arastirma_kuantum_kimyasi_ve_dft_molekuler_dinamik.md",
+        "tier": "04"
+      }
+    ],
     "tokens": [
+      "(dft)",
+      "ab",
+      "arastirma",
+      "dft",
+      "dinamik",
+      "fonksiyoneli",
+      "initio",
       "kimya",
+      "kimyasi",
+      "kimyasi,",
+      "kuantum",
+      "molekuler",
       "temel_bilimler",
+      "teorisi",
+      "ve",
+      "yogunluk",
       "🧪 temel fen bilimleri (fizik, kimya, matematik)"
     ]
   },

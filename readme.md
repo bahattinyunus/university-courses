@@ -10,7 +10,7 @@
 [![Repo](https://img.shields.io/badge/REPO-university--courses-black?style=for-the-badge&logo=github)](https://github.com/bahattinyunus/university-courses)
 [![Kapsam](https://img.shields.io/badge/KAPSAM-374_Disiplin-18453B?style=for-the-badge&logo=rocket)](./SUMMARY.md)
 [![Kademeler](https://img.shields.io/badge/KADEMELER-2618_Mod%C3%BCl-6f42c1?style=for-the-badge&logo=diagram)](./SUMMARY.md)
-[![Monograflar](https://img.shields.io/badge/MONOGRAFLAR-20_Derin_Arastirma-ff69b4?style=for-the-badge&logo=googlescholar&logoColor=white)](./assets/curriculum_index.json)
+[![Monograflar](https://img.shields.io/badge/MONOGRAFLAR-30_Derin_Arastirma-ff69b4?style=for-the-badge&logo=googlescholar&logoColor=white)](./assets/curriculum_index.json)
 
 ---
 
@@ -706,6 +706,72 @@ Tüm akademik ve profesyonel disiplinler açık, doğrudan erişilebilir ve yap�
 
 ---
 
+## 🔍 MÜFREDAT, DİSİPLİN VE ARAŞTIRMA TARAMA MOTORU (CLI)
+
+Depoda bulunan **21 Konteyner, 374 Disiplin, 2.618 Modüler Kademe ve 30 İleri Araştırma Monografı**; entegre ve yüksek performanslı CLI aracı `scripts/search_curriculum.py` ile anında aranabilir, filtrelenebilir, kademe ağaçları incelenebilir ve doğrudan terminal üzerinden okunabilir.
+
+### ⚡ Temel CLI Komutları:
+```bash
+# 1. Genel depo istatistikleri ve fakülte/disiplin dağılımı
+python scripts/search_curriculum.py --stats
+
+# 2. Tüm 30 araştırma monografını listele
+python scripts/search_curriculum.py --research
+
+# 3. İlgili monografı doğrudan terminalde oku (Örn: No 12 - Yazılım Mühendisliği)
+python scripts/search_curriculum.py --read 12
+
+# 4. Bir disiplinin 7-kademeli ağaç yapısını görselleştir
+python scripts/search_curriculum.py --tree "yazilim_muhendisligi"
+
+# 5. Hızlı kavram veya disiplin araması
+python scripts/search_curriculum.py "kuantum"
+
+# 6. İnteraktif arama ve gezinme modunu başlat
+python scripts/search_curriculum.py --interactive
+```
+
+---
+
+## 🔬 UAOS İLERİ AKADEMİK VE TEKNOLOJİK ARAŞTIRMA MONOGRAFLARI (30 MASTER ESER)
+
+Her biri alanın en ileri matematiksel, algoritmik ve kuramsal sınırlarını ele alan, LaTeX denklemleri, Mermaid mimari diyagramları, kanonik kaynakçalar ve somut referans algoritmalar içeren 30 başyapıt araştırma monografı:
+
+| No | Araştırma Monografı | Disiplin & Konteyner | Odak Alanı & Temel Modeller |
+| :---: | :--- | :--- | :--- |
+| **01** | [Elektronik Harp & Bilişsel Radar Karıştırıcılar](./askeri_bilimler_ve_savunma_teknolojileri/siber_savunma_ve_elektronik_harp/04_Arastirma_ve_Bitirme/arastirma_elektronik_harp_ve_bilissel_radar_karistiricilar.md) | Siber Savunma & Harp (⚔️ Savunma) | DRFM, Sayısal RF Bellek, Bilişsel Jamming, ESM/ECM |
+| **02** | [Polimatik Bilişsel Mimari ve İkinci Beyin](./epistemik/zihin_mimarisi/04_Arastirma_ve_Bitirme/arastirma_polimatik_bilissel_mimari_ve_ikinci_beyin.md) | Zihin Mimarisi (👁️ Epistemik) | PKM, Zettelkasten, Bilişsel Sentez, Solopreneur Kaldıraç |
+| **03** | [Yapay Zeka Hukuku ve Algoritmik Sorumluluk](./hukuk_bilimi/hukuk/04_Arastirma_ve_Bitirme/arastirma_yapay_zeka_hukuku_ve_algoritmik_sorumluluk.md) | Hukuk (⚖️ Hukuk Bilimi) | Otonom Ajan Sorumluluğu, AB AI Act, Kusursuz Sorumluluk |
+| **04** | [Dağıtık Sistemler ve Konsensüs Protokolleri](./meta_muhendislik/bilgisayar_muhendisligi/04_Arastirma_ve_Bitirme/arastirma_dagitik_sistemler_ve_konsensus_protokolleri.md) | Bilgisayar Müh. (🛠️ Mühendislik) | Paxos, Raft, Byzantine Fault Tolerance (BFT), CAP Teoremi |
+| **05** | [Organ-on-a-Chip ve Biyo-Hibrit İmplantlar](./meta_muhendislik/biyomedikal_muhendisligi/04_Arastirma_ve_Bitirme/arastirma_organ_on_a_chip_ve_biyo_hibrit_implantlar.md) | Biyomedikal Müh. (🛠️ Mühendislik) | Mikroakışkan Stokes Akışı, TEER Empedansı, Nöral Arayüzler |
+| **06** | [Hipersonik İtki ve Orbital Mekanik](./meta_muhendislik/havacilik_ve_uzay_muhendisligi/04_Arastirma_ve_Bitirme/arastirma_hipersonik_itki_ve_orbital_mekanik.md) | Havacılık & Uzay Müh. (🛠️ Mühendislik) | Scramjet Termodinamiği, Rayleigh Akışı, Hohmann Transferi |
+| **07** | [Otonom Sürü Robotiği ve SLAM Navigasyonu](./meta_muhendislik/kontrol_ve_otomasyon_muhendisligi/04_Arastirma_ve_Bitirme/arastirma_otonom_suru_robotigi_ve_slam_navigasyonu.md) | Kontrol & Otomasyon (🛠️ Mühendislik) | Graf Laplasyen Konsensüsü, SE(3) Faktör Grafları, LiDAR SLAM |
+| **08** | [İnsansı Robotik, Bütünsel Vücut Kontrolü & ZMP](./meta_muhendislik/mekatronik_muhendisligi/04_Arastirma_ve_Bitirme/arastirma_insansi_robotik_ve_dinamik_denge_kontrolu.md) | Mekatronik Müh. (🛠️ Mühendislik) | ZMP, Lineer Ters Sarkaç (LIPM), DCM Yakalama, WBC |
+| **09** | [Manyetik Sınırlamalı Füzyon & Tokamak Dinamiği](./meta_muhendislik/nukleer_enerji_muhendisligi/04_Arastirma_ve_Bitirme/arastirma_manyetik_sinirlamali_fuzyon_ve_tokamak_termodinamigi.md) | Nükleer Enerji Müh. (🛠️ Mühendislik) | Grad-Shafranov Plazma Dengesi, Lawson Kriteri, HTS/REBCO |
+| **10** | [Post-Kuantum Kriptografi & Sıfır Güven (Zero Trust)](./meta_muhendislik/siber_guvenlik_muhendisligi/04_Arastirma_ve_Bitirme/arastirma_post_kuantum_kriptografi_ve_sifir_guven.md) | Siber Güvenlik Müh. (🛠️ Mühendislik) | ML-KEM/Kyber Kafes Kriptosu, eBPF Çekirdek Koruması |
+| **11** | [Modern LLM Mimarileri ve Akıl Yürütme Motorları](./meta_muhendislik/yapay_zeka_ve_veri_muhendisligi/04_Arastirma_ve_Bitirme/arastirma_modern_llm_mimarileri_ve_akil_yurutme.md) | Yapay Zeka Müh. (🛠️ Mühendislik) | RoPE, FlashAttention-3, Mixture-of-Experts, Test-Time Compute |
+| **12** | [Formal Doğrulama ve Güvenilir Sistem Mimarisi](./meta_muhendislik/yazilim_muhendisligi/04_Arastirma_ve_Bitirme/arastirma_formal_dogrulama_ve_guvenilir_sistem_mimarisi.md) | Yazılım Müh. (🛠️ Mühendislik) | TLA+, LTL/CTL Model Checking, Hoare Mantığı, seL4 Mikroçekirdek |
+| **13** | [Hesaplamalı Tasarım ve Biyomimetik Mimarlık](./mimarlik_ve_tasarim/mimarlik/04_Arastirma_ve_Bitirme/arastirma_hesaplamali_tasarim_ve_biyomimetik_mimari.md) | Mimarlık (🏛️ Mimarlık & Tasarım) | Topolojik Optimizasyon (SIMP), Parametrik Voronoi Ağları |
+| **14** | [BCI: Nöral Kod Çözümleme ve Nöroteknoloji](./ozel_arastirma_alanlari/bci/04_Arastirma_ve_Bitirme/arastirma_bci_sinyal_isleme_ve_noroteknoloji.md) | Beyin-Bilgisayar Arayüzleri (🔬 Özel Araştırma) | EEG Spektral Analizi, CSP Filtreleme, Nöromorfik Sinyal İşleme |
+| **15** | [Hücresel Yaşlanma Biyolojisi ve Longevity](./ozel_arastirma_alanlari/bio_hacking_ve_longevity/04_Arastirma_ve_Bitirme/arastirma_hucresel_yaslanma_ve_longevity_biyolojisi.md) | Biyohack & Longevity (🔬 Özel Araştırma) | Horvath Epigenetik Saati, AMPK/mTOR Yolu, Senolitikler |
+| **16** | [Sentetik Genomik ve Metabolik Mühendislik](./ozel_arastirma_alanlari/biyoinformatik/04_Arastirma_ve_Bitirme/arastirma_sentetik_genomik_ve_metabolik_muhendislik.md) | Biyoinformatik (🔬 Özel Araştırma) | Hill Kinetiği, Repressilatör, Flux Balance Analysis (FBA) |
+| **17** | [Sıfır Bilgi İspatları (zk-SNARKs) ve zk-Rollup](./ozel_arastirma_alanlari/blokzincir_ve_web3/04_Arastirma_ve_Bitirme/arastirma_sifir_bilgi_ispatlari_zk_snark_ve_rolluplar.md) | Blokzincir & Web3 (🔬 Özel Araştırma) | PLONK, KZG Polinom Taahhütleri, zk-EVM Ölçeklemesi |
+| **18** | [Doğrudan Hava Yakalama (DAC) ve Yeşil Enerji](./ozel_arastirma_alanlari/climate_tech_ve_karbon_yakalama/04_Arastirma_ve_Bitirme/arastirma_dogrudan_hava_yakalama_ve_temiz_enerji.md) | İklim Teknolojileri (🔬 Özel Araştırma) | Termodinamik Ayırma İşi, Katı Amin Sorpsiyonu, Mineralizasyon |
+| **19** | [Algoritmik Piyasa Yapıcılığı ve HFT Mimarisi](./ozel_arastirma_alanlari/fintek_ai/04_Arastirma_ve_Bitirme/arastirma_algoritmik_piyasa_yapiciligi_ve_yuksek_frekansli_hft.md) | Fintek & AI (🔬 Özel Araştırma) | Avellaneda-Stoikov HJB Çözümü, LOB Mikroyapısı, FPGA/Bypass |
+| **20** | [Kuantum Hesaplama ve Süperiletken Kübitler](./ozel_arastirma_alanlari/kuantum_muhendisligi/04_Arastirma_ve_Bitirme/arastirma_kuantum_hesaplama_ve_kubit_mimarileri.md) | Kuantum Mühendisliği (🔬 Özel Araştırma) | Transmon Hamiltonyeni, Yüzey Kodları (Surface Code), QEC |
+| **21** | [Asteroit Madenciliği ve ISRU Teknolojileri](./ozel_arastirma_alanlari/uzay_madenciligi_ve_lojistigi/04_Arastirma_ve_Bitirme/arastirma_asteroit_madenciligi_ve_in_situ_kaynak_kullanimi.md) | Uzay Madenciliği (🔬 Özel Araştırma) | Tsiolkovsky Roket Denklemi, Güneş Termal Ayrıştırma, Lojistik |
+| **22** | [Hassas Tıp ve CRISPR/mRNA Gen Tedavileri](./saglik/tip/04_Arastirma_ve_Bitirme/arastirma_hassas_tip_ve_mrna_gen_tedavileri.md) | Tıp (🩺 Sağlık Bilimleri) | CRISPR-Cas9 DSB Mekanizması, LNP Taşınımı, Hedefe Yönelik Tedavi |
+| **23** | [Bilinç Felsefesi ve AGI Ontolojisi](./sosyal_ve_beseri_bilimler/felsefe/04_Arastirma_ve_Bitirme/arastirma_bilinc_felsefesi_ve_agi_ontolojisi.md) | Felsefe (⚖️ Sosyal Bilimler) | Entegre Bilgi Kuramı ($\Phi$), İkili Varlık Kuramı, Semantik vs Sentaks |
+| **24** | [Makroekonomik Kaldıraç ve Dijital Paralar (CBDC)](./sosyal_ve_beseri_bilimler/iktisat/04_Arastirma_ve_Bitirme/arastirma_makroekonomik_kaldirac_ve_merkez_bankaciligi.md) | İktisat (⚖️ Sosyal Bilimler) | IS-LM-PC Dengesi, Taylor Kuralı, İki Kademeli CBDC |
+| **25** | [Bilişsel Mimari ve Davranışsal Karar Kuramı](./sosyal_ve_beseri_bilimler/psikoloji/04_Arastirma_ve_Bitirme/arastirma_bilissel_mimari_ve_davranissal_karar_kurami.md) | Psikoloji (⚖️ Sosyal Bilimler) | Prospect Theory Değer Fonksiyonu, Aktif Çıkarım, ACT-R |
+| **26** | [Yerçekimsel Dalga Astronomisi & Karadelikler](./temel_bilimler/astronomi_ve_uzay_bilimleri/04_Arastirma_ve_Bitirme/arastirma_yercekimsel_dalga_astronomisi_ve_karadelik_termodinamigi.md) | Astronomi & Uzay (🧪 Temel Fen) | Kuadrupol Formülü, Karadelik Birleşmeleri, Hawking Entropisi |
+| **27** | [Hesaplamalı Biyoloji ve Protein Tasarımı](./temel_bilimler/biyoloji/04_Arastirma_ve_Bitirme/arastirma_protein_katlanmasi_alphafold_ve_yapisal_biyoloji.md) | Biyoloji (🧪 Temel Fen) | AlphaFold Evoformer, Değişmez Nokta Dikkati (IPA), RFdiffusion |
+| **28** | [Standart Model ve Kuantum Kütleçekimi Ufukları](./temel_bilimler/fizik/04_Arastirma_ve_Bitirme/arastirma_standart_model_ve_sicim_teorisi_ufuklari.md) | Fizik (🧪 Temel Fen) | Yang-Mills Ayar Teorisi, Higgs Mekanizması, AdS/CFT Uyuşumu |
+| **29** | [Kuantum Kimyası ve DFT Moleküler Dinamik](./temel_bilimler/kimya/04_Arastirma_ve_Bitirme/arastirma_kuantum_kimyasi_ve_dft_molekuler_dinamik.md) | Kimya (🧪 Temel Fen) | Kohn-Sham DFT, Car-Parrinello AIMD, Yapay Zeka Kuvvet Alanları |
+| **30** | [Kategori Teorisi ve Biçimsel İspat Sistemleri](./temel_bilimler/matematik/04_Arastirma_ve_Bitirme/arastirma_kategori_teorisi_ve_formal_ispat_sistemleri.md) | Matematik (🧪 Temel Fen) | Functor/Doğal Dönüşüm, Curry-Howard Eşbiçimliliği, Lean 4 |
+
+---
+
 <div align="center">
 
 ## 🧠 SİSTEMATİK ÖĞRENME & BİLİŞSEL KALDIRAÇ METODOLOJİLERİ
@@ -727,7 +793,7 @@ Bu kütüphanedeki verimi en üst düzeye çıkarmak için kanıtlanmış biliş
 - [x] **Faz 2:** Universal Discipline Matrix (374 Akademik Alan / 2618 Kademe) entegrasyonu.
 - [x] **Faz 3:** CI/CD otomatik repo bütünlüğü ve indeks doğrulama test hattı.
 - [x] **Faz 4:** Polimatik zihinsel modeller, düşünürler panteonu ve felsefi aksiyomların mimariye kazandırılması.
-- [x] **Faz 5:** İnteraktif CLI arama motoru ve 20 derin akademik araştırma monografı (`scripts/search_curriculum.py` & `assets/curriculum_index.json`).
+- [x] **Faz 5:** İnteraktif CLI arama ve ağaç görselleştirme motoru (`scripts/search_curriculum.py`) ve 30 derin akademik araştırma monografı (`assets/curriculum_index.json`).
 - [ ] **Faz 6:** Uluslararası çok dilli akademik genişleme.
 
 ---
